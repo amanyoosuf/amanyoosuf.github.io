@@ -11,7 +11,7 @@ Hi! I'm Aman, a Year 2 Electrical Engineering student at The Hong Kong Polytechn
 
 I'm passionate about a wide variety of EE fields including power systems, circuits, electronics, IoT, and robotics, and I'm always eager to explore new opportunities across electrical engineering and diversify my knowledge.
 
-Beyond academics, I'm an experienced tutor and mentor. I've been teaching international students in Hong Kong since I was 15, covering a wide range of curricula. You can learn more about my tutoring services [here](#).
+Beyond academics, I'm an experienced tutor and mentor. I've been teaching since I was 15, and currently teach international students in Hong Kong, covering a wide range of popular, international curricula. You can learn more about my tutoring services [here](#).
 
 I've played cricket my whole life, and currently play with the PolyU Cricket Team and Kowloon Cricket Club (KCC).
 
