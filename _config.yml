@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "contrast" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Aman iiYoosuf"
+title                    : "Aman Yoosuf"
 title_separator          : "-"
 name                     : &name "Aman Yoosuf"
 description              : &description "This is my online academic portfolio/resume"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -24,24 +24,24 @@ repository               : "amanyoosuf/amanyoosuf.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Aman Yoosuf"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "EE @ PolyU + Tutor"
+  location         : "Kowloon, Hong Kong (Earth)"
+  employer         : "The Hong Kong Polytechnic University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "amanur.yoosuf@connect.polyu.hk" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : 
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : 
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : 
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
@@ -51,20 +51,20 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "amanyoosuf"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
   goodreads        : # Username
   google_plus      : # Username
   keybase          : # Username
-  instagram        : # Username
+  instagram        : "amanyoosuf"
   lastfm           : # Username
   linkedin         : # Username
   mastodon         : # URL
@@ -83,16 +83,16 @@ author:
   zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
-publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+# publication_category:
+#  books:
+#    title: 'Books'
+#  manuscripts:
+#    title: 'Journal Articles'    
+#  conferences:
+#    title: 'Conference Papers'
 
 # Site Settings
-teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
+teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews, What to do: If you have a logo or image for your tutoring business, upload it to /images/ and add the filename here.
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
@@ -130,7 +130,7 @@ atom_feed:
 
 
 # SEO Related
-google_site_verification :
+google_site_verification : "__GVOaA4cWDJUVQlYFHmHKnCOuxiMOvKFypjxQ6LjLE"
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
@@ -143,7 +143,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
+og_image                 :  # Social media default site image --- add this IMPORTANT
 og_description           :  # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
