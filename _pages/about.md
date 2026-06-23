@@ -9,7 +9,7 @@ redirect_from:
 
 Hi! I'm Aman, a Year 2 Electrical Engineering student at The Hong Kong Polytechnic University, with a secondary major in AIDA (Artificial Intelligence and Data Analytics). My research focuses on Dynamic State Estimation (DSE) of modern power grids, where I apply AI and deep learning to enhance power system reliability.
 
-I'm passionate about power systems, circuits, electronics, IoT, and robotics—and I'm always eager to explore new opportunities across electrical engineering.
+I'm passionate about a wide variety of EE fields including power systems, circuits, electronics, IoT, and robotics, and I'm always eager to explore new opportunities across electrical engineering and diversify my knowledge.
 
 Beyond academics, I'm an experienced tutor and mentor. I've been teaching international students in Hong Kong since I was 15, covering a wide range of curricula. You can learn more about my tutoring services [here](#).
 
