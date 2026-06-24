@@ -17,6 +17,12 @@ $notice-color               : #7a8288;
 $success-color              : #2ecc71;
 $warning-color              : #f39c12;
 
+/* ========== ADD FONT SETTINGS HERE ========== */
+/* Font settings */
+$global-font-family         : "Onest", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$header-font-family         : "Onest", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+/* ============================================ */
+
 /* Other basic settings for the template */
 $border-radius              : 4px;
 $box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
@@ -45,4 +51,5 @@ $sidebar-screen-min-width   : 1024px;
     --global-text-color                 : #2c3e50;   /* Dark slate for main text */
     --global-text-color-light           : #5a7a9a;   /* Muted blue-gray for subtle text */
     --global-thead-color                : #d4e1f0;
+    --global-font-family                : #{$global-font-family};  /* ← ADD THIS LINE */
 }
