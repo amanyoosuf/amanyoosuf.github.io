@@ -1,19 +1,20 @@
 /* Dark theme for the site */
 [data-theme="dark"] {
     --global-base-color                 : #{$primary-color};
-    --global-bg-color                   : #0d1b2a;      /* Very dark navy */
-    --global-footer-bg-color            : #0a1520;      /* Even darker navy */
-    --global-border-color               : #1a3a5c;      /* Dark navy border */
+    --global-bg-color                   : #0d1b2a;
+    --global-footer-bg-color            : #0a1520;
+    --global-border-color               : #1a3a5c;
     --global-dark-border-color          : #2a4a6a;
     --global-code-background-color      : #162433;
     --global-code-text-color            : #e8f0f8;
     --global-fig-caption-color          : #7a9abf;
-    --global-link-color                 : #64b5f6;      /* Bright blue links in dark mode */
+    --global-link-color                 : #64b5f6;
     --global-link-color-hover           : #90caf9;
     --global-link-color-visited         : #7a5acd;
-    --global-masthead-link-color        : #b0c4de;      /* Light blue-gray */
+    --global-masthead-link-color        : #b0c4de;
     --global-masthead-link-color-hover  : #ffffff;
-    --global-text-color                 : #e8f0f8;      /* Light blue-white text */
-    --global-text-color-light           : #8ab0d0;      /* Muted blue for subtle text */
+    --global-text-color                 : #e8f0f8;
+    --global-text-color-light           : #8ab0d0;
     --global-thead-color                : #1a3a5c;
+    --global-font-family                : #{$global-font-family};  /* ← ADD THIS LINE */
 }
