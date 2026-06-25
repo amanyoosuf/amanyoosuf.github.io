@@ -9,22 +9,22 @@
 
 main:
   - title: "Education"
-    url: /education/
+    url: /#education/
 
   - title: "Experience"
-    url: /experience/    
+    url: /#experience/    
 
   - title: "Projects"
-    url: /projects/    
+    url: /#projects/    
     
   - title: "Honors & Awards"
-    url: /awards/
+    url: /#awards/
         
   - title: "Cricket"
-    url: /cricket/
+    url: /#cricket/
     
   - title: "Tutoring"
-    url: /tutoring/
+    url: /#tutoring/
     
   # - title: "CV"
   #   url: /cv-json/
