@@ -45,26 +45,193 @@ author_profile: true
 
 
 
-<h2 id="education">🎓 Education</h2>
+<h2 id="#education">🎓 Education</h2>
 [Your education content]
 
-<h2 id="experience">💼 Experience</h2>
+<p> f
+f
+
+f
+f
+f
+f
+f</p>
+<p> f
+f
+
+f
+f
+f
+f
+f</p>
+<p> f
+f
+
+f
+f
+f
+f
+f</p>
+
+<h2 id="#experience">💼 Experience</h2>
 [Your experience content]
 
-<h2 id="projects">🚀 Projects</h2>
+<p> f
+f
+
+f
+f
+f
+f
+f</p>
+
+<p> f
+f
+
+f
+f
+f
+f
+f</p>
+<p> f
+f
+
+f
+f
+f
+f
+f</p>
+
+<h2 id="#projects">🚀 Projects</h2>
 [Your projects content]
 
-<h2 id="awards">🏆 Honors & Awards</h2>
+
+<p> f
+f
+
+f
+f
+f
+f
+f</p>
+<p> f
+f
+
+f
+f
+f
+f
+f</p>
+
+<h2 id="#awards">🏆 Honors & Awards</h2>
 [Your awards content]
+<p> f
+f
 
-<h2 id="cricket">🏏 Cricket</h2>
+f
+f
+f
+f
+f</p>
+<p> f
+f
+
+f
+f
+f
+f
+f</p>
+<p> f
+f
+
+f
+f
+f
+f
+f</p>
+
+<h2 id="#cricket">🏏 Cricket</h2>
 <p>I've played cricket my whole life and currently represent the <strong>PolyU Cricket Team</strong> and the <strong>Kowloon Cricket Club (KCC)</strong>.</p>
+<p> f
+f
 
-<h2 id="tutoring">💡 Tutoring</h2>
+f
+f
+f
+f
+f</p>
+<p> f
+f
+
+f
+f
+f
+f
+f</p>
+<p> f
+f
+
+f
+f
+f
+f
+f</p>
+
+<h2 id="#tutoring">💡 Tutoring</h2>
 [Your tutoring content]
+
+<p> f
+f
+
+f
+f
+f
+f
+f</p>
+<p> f
+f
+
+f
+f
+f
+f
+f</p>
+<p> f
+f
+
+f
+f
+f
+f
+f</p>
 
 <h2 id="travel">✈️ Travel + more</h2>
 [Your travel content]
+
+<p> f
+f
+
+f
+f
+f
+f
+f</p>
+<p> f
+f
+
+f
+f
+f
+f
+f</p>
+<p> f
+f
+
+f
+f
+f
+f
+f</p>
 
 <h2 id="contact">📫 Let's Connect</h2>
 [Your contact buttons]
