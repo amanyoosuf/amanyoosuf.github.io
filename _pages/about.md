@@ -43,3 +43,28 @@ author_profile: true
 **Edexcel International Advanced Level (Subjects: Mathematics, Chemistry, Biology, Physics)** February 2022 - June 2024
 - Result: 4A* 
 
+
+
+<h2 id="education">🎓 Education</h2>
+[Your education content]
+
+<h2 id="experience">💼 Experience</h2>
+[Your experience content]
+
+<h2 id="projects">🚀 Projects</h2>
+[Your projects content]
+
+<h2 id="awards">🏆 Honors & Awards</h2>
+[Your awards content]
+
+<h2 id="cricket">🏏 Cricket</h2>
+[Your cricket content]
+
+<h2 id="tutoring">💡 Tutoring</h2>
+[Your tutoring content]
+
+<h2 id="travel">✈️ Travel + more</h2>
+[Your travel content]
+
+<h2 id="contact">📫 Let's Connect</h2>
+[Your contact buttons]
