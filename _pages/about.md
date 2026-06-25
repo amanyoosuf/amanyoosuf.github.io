@@ -10,11 +10,11 @@ redirect_from:
 <div style="background: linear-gradient(135deg, #1a3a5c 0%, #4a90d9 100%); padding: 2rem 2rem 1.5rem; border-radius: 12px; color: white; margin-bottom: 1.5rem; text-align: center;">
   <img src="/images/instapic.jpg" alt="Aman" style="width: 120px; height: 120px; border-radius: 10%; object-fit: cover; border: 3px solid white; box-shadow: 0 4px 20px rgba(0,0,0,0.2);">
   
-  <h1 style="margin: 0.5rem 0 0 0; font-size: 2.2rem; color: white; font-family: 'Bowlby One', cursive; font-weight: 400;">Aman Yoosuf</h1>
+  <h1 style="margin: 0.5rem 0 0 0; font-size: 2.2rem; color: white; font-family: 'Bowlby One', monospace; font-weight: 400;">Aman Yoosuf</h1>
   
-  <p style="font-size: 1.1rem; margin: 0.2rem 0 0 0; opacity: 0.9; color: white; font-family: 'Bowlby One', cursive; font-weight: 400;">Electrical Engineering (with a secondary major in AI & Data Analytics)</p>
+  <p style="font-size: 1.1rem; margin: 0.2rem 0 0 0; opacity: 0.9; color: white; font-family: 'Bowlby One', monospace; font-weight: 400;">Electrical Engineering (with a secondary major in AI & Data Analytics)</p>
   
-  <p style="margin: 0.5rem 0 0 0; opacity: 0.8; color: white; font-family: 'Bowlby One', cursive; font-weight: 400;">📍 Hong Kong | Year 2 @ The Hong Kong Polytechnic University</p>
+  <p style="margin: 0.5rem 0 0 0; opacity: 0.8; color: white; font-family: 'Bowlby One', monospace; font-weight: 400;">📍 Hong Kong | Year 2 @ The Hong Kong Polytechnic University</p>
 </div>
 
 Hey everyone! My name is Aman, a Year 2 **Electrical Engineering** student at **The Hong Kong Polytechnic University**, with a secondary major in **AIDA (Artificial Intelligence and Data Analytics)**. Originally from Sri Lanka, I now study in Hong Kong.
