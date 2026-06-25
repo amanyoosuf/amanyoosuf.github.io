@@ -28,3 +28,18 @@ I'm also heavily involved in teaching and tutoring. With over four years of expe
 On weekends, you'll find me on the cricket pitch. I've played my whole life, and currently represent the **PolyU Cricket Team** and the **Kowloon Cricket Club (KCC)**.
 
 You can reach out to me at amanur.yoosuf@connect.polyu.hk or on Whatsapp at +852 9763 0974.
+
+---
+title: "Education"
+permalink: /education/
+author_profile: true
+---
+
+## The Hong Kong Polytechnic University
+**BEng in Electrical Engineering (with a Secondary Major in AIDA)** September 2025 - Present
+- Grade: 3.53/4.30 (as of year 1)
+
+## Lyceum International School Nugegoda, Sri Lanka
+**Edexcel International Advanced Level (Subjects: Mathematics, Chemistry, Biology, Physics)** February 2022 - June 2024
+- Result: 4A* 
+
