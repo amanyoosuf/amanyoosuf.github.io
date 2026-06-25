@@ -58,7 +58,7 @@ author_profile: true
 [Your awards content]
 
 <h2 id="cricket">🏏 Cricket</h2>
-[Your cricket content]
+<p>I've played cricket my whole life and currently represent the <strong>PolyU Cricket Team</strong> and the <strong>Kowloon Cricket Club (KCC)</strong>.</p>
 
 <h2 id="tutoring">💡 Tutoring</h2>
 [Your tutoring content]
