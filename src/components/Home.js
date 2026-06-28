@@ -87,7 +87,7 @@ function Home() {
                             {/* Left Side: Logo Block (Forces it to stay on the left and never shrink) */}
                             <div className='experience-logo-zone' style={{ flexShrink: 0, width: '60px', marginTop: '5px' }}>
                                 <img 
-                                    src='./images/polyu-logo.png' 
+                                    src='./images/polyu.png' 
                                     className='company-logo' 
                                     alt="PolyU Logo" 
                                     style={{ width: '100%', height: 'auto', objectFit: 'contain', borderRadius: '6px' }} 
