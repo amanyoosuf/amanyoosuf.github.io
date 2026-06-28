@@ -69,9 +69,8 @@ function Home() {
                         <p className='academic-grade'><strong>Result:</strong> 4A* (Subjects: Mathematics, Chemistry, Biology, Physics)</p>
                     </div>
 
-                    {/* Placeholder for more education entries */}
                     <div className='placeholder-zone'>
-                        {/* Add future certification courses or honors academies here */}
+                        {/* Future milestones placeholder */}
                     </div>
                 </div>
             </section>
@@ -80,16 +79,13 @@ function Home() {
             <section id='experience' className='work-section_container'>
                 <div className='content-wrapper'>
                     <h2>💼 Experience</h2>
-        
+                    
                     {/* EXPERIENCE CARD 1: URIS RESEARCH */}
                     <div className='work-timeline-card'>
                         <div className='experience-flex-container'>
-                            {/* Left Side: Logo Block */}
                             <div className='experience-logo-zone'>
                                 <img src='./images/polyu-logo.png' className='company-logo' alt="PolyU Logo" />
                             </div>
-                
-                            {/* Right Side: Text Block */}
                             <div className='experience-text-zone'>
                                 <div className='work-card-header'>
                                     <h3>Undergraduate Researcher (URIS)</h3>
@@ -97,21 +93,18 @@ function Home() {
                                 </div>
                                 <h4 className='work-organization'>The Hong Kong Polytechnic University</h4>
                                 <p className='work-details'>
-                                     in the Undergraduate Research and Innovation Scheme (URIS) at PolyU. Currently working on making power grids smarter and more resilient using AI-driven models for real-time state estimation.
+                                    Participating in the Undergraduate Research and Innovation Scheme (URIS) at PolyU. Currently working on making power grids smarter and more resilient using AI-driven models for real-time state estimation.
                                 </p>
                             </div>
                         </div>
                     </div>
 
-                    {/* EXPERIENCE CARD 2: TUTORING OR FUTURE INTERNSHIP */}
+                    {/* EXPERIENCE CARD 2: TUTORING */}
                     <div className='work-timeline-card'>
                         <div className='experience-flex-container'>
-                            {/* Left Side: Logo Block */}
                             <div className='experience-logo-zone'>
-                                <img src='./images/tutoring-logo.png' className='company-logo' alt="Tutoring Agency Logo" />
+                                <img src='./images/tutoring-logo.png' className='company-logo' alt="Tutoring Logo" />
                             </div>
-                
-                            {/* Right Side: Text Block */}
                             <div className='experience-text-zone'>
                                 <div className='work-card-header'>
                                     <h3>Freelance STEM & Advanced Level Tutor</h3>
@@ -124,10 +117,7 @@ function Home() {
                             </div>
                         </div>
                     </div>
-
-                    {/* You can copy/paste another "work-timeline-card" block right here to add a third experience! */}
-
-       
+                </div>
             </section>
 
             {/* 5. PROJECTS SECTION */}
@@ -135,10 +125,8 @@ function Home() {
                 <div className='content-wrapper'>
                     <h2>🚀 Projects</h2>
                     <Cards /> 
-                    
-                    {/* Placeholder for custom projects text lines */}
                     <div className='placeholder-zone'>
-                        {/* Add bullet points or specific descriptions for your data analytics or engineering projects */}
+                        {/* Custom project sub-lines layout placeholder */}
                     </div>
                 </div>
             </section>
@@ -155,10 +143,8 @@ function Home() {
                             <p>Achieved a perfect score of 4A* at the International Advanced Level examinations.</p>
                         </div>
                     </div>
-
-                    {/* Placeholder for scholarships, Dean's lists, or pitch wins */}
                     <div className='placeholder-zone'>
-                        {/* Insert future scholarship milestones here */}
+                        {/* Future honors layout placeholder */}
                     </div>
                 </div>
             </section>
@@ -171,15 +157,14 @@ function Home() {
                         <p>
                             On weekends, you’ll find me on the cricket pitch. I’ve played cricket my whole life and currently proudly represent both the <strong>PolyU Cricket Team</strong> and the <strong>Kowloon Cricket Club (KCC)</strong>.
                         </p>
-                        {/* Placeholder for seasonal metrics, league highlights, or match records */}
                     </div>
-                </div> {/* <--- Added missing closing div for content-wrapper here */}
+                </div> 
             </section>
 
-            {/* 8. TUTORING SECTION */}
+            {/* 8. TUTORING SUMMARY PREVIEW SECTION */}
             <section id='tutoring' className='services-section_container'>
                 <div className='content-wrapper'>
-                    <h2>💡 Tutoring</h2>
+                    <h2>💡 Tutoring Overview</h2>
                     <div className='tutoring-pitch-card'>
                         <p>
                             I’m heavily involved in teaching and academic mentoring. With over four years of experience, I’ve successfully taught and guided more than 40 students across various international schools in Hong Kong.
@@ -197,10 +182,8 @@ function Home() {
             <section id='travel' className='lifestyle-section_container'>
                 <div className='content-wrapper'>
                     <h2>✈️ Travel + more</h2>
-                    
                     <div className='athletics-profile-card'>
                         <p>Exploring diverse international academic environments, field studies, and unique cultural paths outside of the research lab.</p>
-                        {/* Placeholder for future travel logs, photography, or creative pursuits */}
                     </div>
                 </div>
             </section>
