@@ -58,7 +58,7 @@ function Home() {
                             {/* Left Side: PolyU Logo */}
                             <div className='education-logo-zone' style={{ flexShrink: 0, width: '60px', marginTop: '5px' }}>
                                 <img 
-                                    src='./images/polyu-logo.png' 
+                                    src='./polyu.png' 
                                     className='institution-logo' 
                                     alt="PolyU Logo" 
                                     style={{ width: '100%', height: 'auto', objectFit: 'contain', borderRadius: '6px' }} 
@@ -85,7 +85,7 @@ function Home() {
                             {/* Left Side: Lyceum Logo */}
                             <div className='education-logo-zone' style={{ flexShrink: 0, width: '60px', marginTop: '5px' }}>
                                 <img 
-                                    src='./images/lyceum-logo.png' 
+                                    src='./lyceum aristotle.png' 
                                     className='institution-logo' 
                                     alt="Lyceum International School Logo" 
                                     style={{ width: '100%', height: 'auto', objectFit: 'contain', borderRadius: '6px' }} 
