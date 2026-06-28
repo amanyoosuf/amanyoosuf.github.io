@@ -1,0 +1,139 @@
+/* ==========================================================================
+   PROJECT CARDS CONTAINER OVERHAUL
+   ========================================================================== */
+.cards {
+  padding: 4rem 2rem;
+  background: #0a192f; /* Perfectly matches your Midnight Tech background */
+}
+
+/* Card Collection Layout Engine */
+.cards__container {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.cards__wrapper {
+  position: relative;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.cards__items {
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+/* ==========================================================================
+   INDIVIDUAL CARD DECK SHAPING
+   ========================================================================== */
+.cards__item {
+  display: flex;
+  flex: 1;
+  margin: 0 1rem;
+  border-radius: 4px;
+  background-color: #112240; /* Elevated slate card background */
+  border: 1px solid rgba(100, 255, 218, 0.1); /* Subtle neon border */
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.cards__item__link {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  border-radius: 4px;
+  overflow: hidden;
+  text-decoration: none;
+  box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
+}
+
+/* Dynamic glow effect on hover */
+.cards__item:hover {
+  transform: translateY(-5px);
+  border-color: #64ffda; /* Full neon glowing border */
+  box-shadow: 0 20px 30px -15px rgba(2, 12, 27, 0.7);
+}
+
+/* ==========================================================================
+   MEDIA WRAPPERS (IMAGES & VIDEOS)
+   ========================================================================== */
+.cards__item__pic-wrap {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* Golden 16:9 widescreen layout aspect ratio */
+  overflow: hidden;
+  background: #020c1b;
+}
+
+.cards__item__img,
+.cards__item__video {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+  object-fit: cover; /* Crops beautifully without stretching metrics */
+  transition: transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.cards__item:hover .cards__item__img {
+  transform: scale(1.05); /* Subtle smooth upscale hover */
+}
+
+/* ==========================================================================
+   INFO MAPPING & INTERIOR TEXT STRIPS
+   ========================================================================== */
+.cards__item__info {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.cards__item__text {
+  color: #e6f1ff; /* Crisp clean title code text */
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.cards__item__label {
+  color: #8892b0; /* Subdued description paragraph color */
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* ==========================================================================
+   RESPONSIVE LAYOUT MATRIX
+   ========================================================================== */
+@media only screen and (min-width: 1024px) {
+  .cards__items {
+    display: flex;
+    gap: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .cards__item {
+    margin: 0 0 2rem 0;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .cards__container {
+    padding-top: 1rem;
+  }
+  
+  .cards__item__info {
+    padding: 1.25rem;
+  }
+}
