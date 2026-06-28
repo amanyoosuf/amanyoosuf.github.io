@@ -84,7 +84,7 @@ function Home() {
                     <div className='work-timeline-card'>
                         <div className='experience-flex-container'>
                             <div className='experience-logo-zone'>
-                                <img src='./images/polyu-logo.png' className='company-logo' alt="PolyU Logo" />
+                                <img src='./polyu.png' className='company-logo' alt="PolyU Logo" />
                             </div>
                             <div className='experience-text-zone'>
                                 <div className='work-card-header'>
