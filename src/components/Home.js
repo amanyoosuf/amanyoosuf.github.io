@@ -142,7 +142,8 @@ function Home() {
                         </p>
                         {/* Placeholder for seasonal metrics, league highlights, or match records */}
                     </div>
-                </section>
+                </div> {/* <--- Added missing closing div for content-wrapper here */}
+            </section>
 
             {/* 8. TUTORING SECTION */}
             <section id='tutoring' className='services-section_container'>
