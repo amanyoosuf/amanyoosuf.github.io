@@ -80,23 +80,54 @@ function Home() {
             <section id='experience' className='work-section_container'>
                 <div className='content-wrapper'>
                     <h2>💼 Experience</h2>
-                    
+        
+                    {/* EXPERIENCE CARD 1: URIS RESEARCH */}
                     <div className='work-timeline-card'>
-                        <div className='work-card-header'>
-                            <h3>Undergraduate Researcher (URIS)</h3>
-                            <span className='work-period'>Current</span>
+                        <div className='experience-flex-container'>
+                            {/* Left Side: Logo Block */}
+                            <div className='experience-logo-zone'>
+                                <img src='./images/polyu-logo.png' className='company-logo' alt="PolyU Logo" />
+                            </div>
+                
+                            {/* Right Side: Text Block */}
+                            <div className='experience-text-zone'>
+                                <div className='work-card-header'>
+                                    <h3>Undergraduate Researcher (URIS)</h3>
+                                    <span className='work-period'>Current</span>
+                                </div>
+                                <h4 className='work-organization'>The Hong Kong Polytechnic University</h4>
+                                <p className='work-details'>
+                                    Participating in the Undergraduate Research and Innovation Scheme (URIS) at PolyU. Currently working on making power grids smarter and more resilient using AI-driven models for real-time state estimation.
+                                </p>
+                            </div>
                         </div>
-                        <h4 className='work-organization'>The Hong Kong Polytechnic University</h4>
-                        <p className='work-details'>
-                            Participating in the Undergraduate Research and Innovation Scheme (URIS) at PolyU. Currently working on making power grids smarter and more resilient using AI-driven models for real-time state estimation.
-                        </p>
                     </div>
 
-                    {/* Placeholder for future engineering internships */}
-                    <div className='placeholder-zone'>
-                        {/* Insert your future internship items here */}
+                    {/* EXPERIENCE CARD 2: TUTORING OR FUTURE INTERNSHIP */}
+                    <div className='work-timeline-card'>
+                        <div className='experience-flex-container'>
+                            {/* Left Side: Logo Block */}
+                            <div className='experience-logo-zone'>
+                                <img src='./images/tutoring-logo.png' className='company-logo' alt="Tutoring Agency Logo" />
+                            </div>
+                
+                            {/* Right Side: Text Block */}
+                            <div className='experience-text-zone'>
+                                <div className='work-card-header'>
+                                    <h3>Freelance STEM & Advanced Level Tutor</h3>
+                                    <span className='work-period'>2022 - Present</span>
+                                </div>
+                                <h4 className='work-organization'>International Curriculums (HK & Sri Lanka)</h4>
+                                <p className='work-details'>
+                                    Instructed and mentored over 40 students in Advanced Level Physics, Mathematics, and Chemistry. Developed customized problem-solving frameworks that drove significant academic performance improvements.
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                </div>
+
+                    {/* You can copy/paste another "work-timeline-card" block right here to add a third experience! */}
+
+       
             </section>
 
             {/* 5. PROJECTS SECTION */}
