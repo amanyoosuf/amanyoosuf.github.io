@@ -1,0 +1,191 @@
+/* ==========================================================================
+   MAIN TOP FIXED NAVIGATION BAR FRAME
+   ========================================================================== */
+.navbar {
+  background: rgba(10, 25, 47, 0.85); /* Seamless deep canvas match with transparency */
+  backdrop-filter: blur(12px); /* Premium glassy hardware blur overlay effect */
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  position: sticky;
+  top: 0; /* Cleaned top snap position anchor */
+  z-index: 999;
+  border-bottom: 1px solid rgba(100, 255, 218, 0.1); /* Subtle glowing accent separating navigation */
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between; /* Spreads out logo and menu links cleanly */
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  max-width: 1400px;
+  padding: 0 40px;
+}
+
+/* ==========================================================================
+   LEFT BRAND LOGO TYPOGRAPHY
+   ========================================================================== */
+.navbar-logo {
+  color: #e6f1ff; /* Premium crisp off-white */
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  letter-spacing: -0.5px;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.navbar-logo:hover {
+  color: #64ffda; /* Logo text transitions to neon cyan on hover */
+}
+
+/* ==========================================================================
+   NAVIGATION MENUS & LINK ELEMENTS
+   ========================================================================== */
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  gap: 0.5rem;
+}
+
+.nav-item {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.nav-links {
+  color: #8892b0; /* Ash silver default text state */
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+  font-family: monospace; /* Gives links a clean, technical appearance */
+  font-size: 0.95rem;
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+/* Slick bottom code slide accent animation */
+.nav-links::after {
+  content: '';
+  position: absolute;
+  bottom: 20px; /* Safe padding distance above bottom line wrapper */
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: #64ffda; /* Neon cyan slide runner */
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transform: translateX(-50%);
+}
+
+.nav-links:hover {
+  color: #e6f1ff; /* Brightens up text label string on hover */
+}
+
+.nav-links:hover::after {
+  width: 70%; /* Expands neatly below active menu text */
+}
+
+/* ScrollSpy Active Track State (Triggered when browsing a section) */
+.nav-links--active {
+  color: #64ffda !important; /* Glows neon cyan dynamically on scroll position match */
+  font-weight: 600;
+}
+
+.nav-links--active::after {
+  width: 70% !important;
+  background: #64ffda !important;
+}
+
+/* Dropdown Caret Icon Adjustment */
+.fa-caret-down {
+  margin-left: 0.4rem;
+  font-size: 1rem !important;
+  transition: transform 0.2s ease;
+}
+
+.menu-icon {
+  display: none;
+}
+
+/* ==========================================================================
+   MOBILE & TABLET BREAKPOINT ENGINE
+   ========================================================================== */
+@media screen and (max-width: 960px) {
+  .navbar-container {
+    padding: 0 24px;
+    justify-content: space-between;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100vh - 80px); /* Extends viewport safely down mobile bounds */
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 0;
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    background: #112240; /* Elevated deep slate block backdrop panels */
+    border-top: 1px solid rgba(100, 255, 218, 0.05);
+    gap: 0;
+  }
+
+  .nav-menu.active {
+    left: 0;
+    opacity: 1;
+    z-index: 999;
+  }
+
+  .nav-item {
+    width: 100%;
+    height: auto;
+  }
+
+  .nav-links {
+    padding: 1.5rem 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 1.1rem;
+  }
+
+  /* Removes text slide runners on smaller layouts to simplify presentation */
+  .nav-links::after {
+    display: none;
+  }
+
+  .nav-links:hover {
+    background-color: rgba(100, 255, 218, 0.03);
+    color: #64ffda;
+  }
+
+  .navbar-logo {
+    position: static;
+    transform: none;
+  }
+
+  /* Right Side Toggle Icon System */
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+
+  .fa-bars, .fa-times {
+    color: #64ffda; /* Hamburger icon colored to target scheme tint */
+  }
+}
