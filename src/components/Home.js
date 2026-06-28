@@ -51,24 +51,60 @@ function Home() {
                 <div className='content-wrapper'>
                     <h2>🎓 Education</h2>
                     
-                    <div className='academic-timeline-card'>
-                        <div className='academic-card-header'>
-                            <h3>The Hong Kong Polytechnic University</h3>
-                            <span className='academic-period'>September 2025 - Present</span>
+                    {/* POLYU CARD */}
+                    <div className='academic-timeline-card' style={{ marginBottom: '25px' }}>
+                        <div className='education-flex-container' style={{ display: 'flex', alignItems: 'flex-start', gap: '20px' }}>
+                            
+                            {/* Left Side: PolyU Logo */}
+                            <div className='education-logo-zone' style={{ flexShrink: 0, width: '60px', marginTop: '5px' }}>
+                                <img 
+                                    src='./images/polyu-logo.png' 
+                                    className='institution-logo' 
+                                    alt="PolyU Logo" 
+                                    style={{ width: '100%', height: 'auto', objectFit: 'contain', borderRadius: '6px' }} 
+                                />
+                            </div>
+                            
+                            {/* Right Side: PolyU Academic Details */}
+                            <div className='education-text-zone' style={{ flexGrow: 1 }}>
+                                <div className='academic-card-header'>
+                                    <h3>The Hong Kong Polytechnic University</h3>
+                                    <span className='academic-period'>September 2024 - Present</span>
+                                </div>
+                                <h4 className='academic-degree'>BEng in Electrical Engineering (with a Secondary Major in AIDA)</h4>
+                                <p className='academic-grade'><strong>Grade:</strong> 3.53/4.30 (as of Year 1)</p>
+                            </div>
+                            
                         </div>
-                        <h4 className='academic-degree'>BEng in Electrical Engineering (with a Secondary Major in AIDA)</h4>
-                        <p className='academic-grade'><strong>Grade:</strong> 3.53/4.30 (as of Year 1)</p>
                     </div>
-
+            
+                    {/* LYCEUM CARD */}
                     <div className='academic-timeline-card'>
-                        <div className='academic-card-header'>
-                            <h3>Lyceum International School Nugegoda, Sri Lanka</h3>
-                            <span className='academic-period'>February 2022 - June 2024</span>
+                        <div className='education-flex-container' style={{ display: 'flex', alignItems: 'flex-start', gap: '20px' }}>
+                            
+                            {/* Left Side: Lyceum Logo */}
+                            <div className='education-logo-zone' style={{ flexShrink: 0, width: '60px', marginTop: '5px' }}>
+                                <img 
+                                    src='./images/lyceum-logo.png' 
+                                    className='institution-logo' 
+                                    alt="Lyceum International School Logo" 
+                                    style={{ width: '100%', height: 'auto', objectFit: 'contain', borderRadius: '6px' }} 
+                                />
+                            </div>
+                            
+                            {/* Right Side: Lyceum Academic Details */}
+                            <div className='education-text-zone' style={{ flexGrow: 1 }}>
+                                <div className='academic-card-header'>
+                                    <h3>Lyceum International School Nugegoda, Sri Lanka</h3>
+                                    <span className='academic-period'>February 2022 - June 2024</span>
+                                </div>
+                                <h4 className='academic-degree'>Edexcel International Advanced Level</h4>
+                                <p className='academic-grade'><strong>Result:</strong> 4A* (Subjects: Mathematics, Chemistry, Biology, Physics)</p>
+                            </div>
+                            
                         </div>
-                        <h4 className='academic-degree'>Edexcel International Advanced Level</h4>
-                        <p className='academic-grade'><strong>Result:</strong> 4A* (Subjects: Mathematics, Chemistry, Biology, Physics)</p>
                     </div>
-
+            
                     <div className='placeholder-zone'>
                         {/* Future milestones placeholder */}
                     </div>
@@ -158,35 +194,35 @@ function Home() {
                     <h2>🏆 Honors & Awards</h2>
                     
                     <div className='award-item-row'>
-                        <span className='award-year'>June 2026</span>
+                        <span className='award-year'>2026</span>
                         <div className='award-text-content'>
                             <h3>Talent Development Scholarship 2025/26 (valued at 10,000 HKD)</h3>
                         </div>
                     </div>
 
                   <div className='award-item-row'>
-                        <span className='award-year'>June 2026</span>
+                        <span className='award-year'>2026</span>
                         <div className='award-text-content'>
                             <h3>Undergraduate Research & Innovation Scheme (URIS) Scholarship & Grant (valued at 50,000 HKD)</h3>
                         </div>
                     </div>
 
                   <div className='award-item-row'>
-                        <span className='award-year'>March 2025</span>
+                        <span className='award-year'>2025</span>
                         <div className='award-text-content'>
                             <h3>PolyU Academic Entry Scholarship (valued at almost 1M HKD)</h3>
                         </div>
                     </div>
 
                     <div className='award-item-row'>
-                        <span className='award-year'>October 2024</span>
+                        <span className='award-year'>2024</span>
                         <div className='award-text-content'>
                             <h3>Edexcel High Achiever Award</h3>
                         </div>
                     </div>
 
                   <div className='award-item-row'>
-                        <span className='award-year'>October 2022</span>
+                        <span className='award-year'>2022</span>
                         <div className='award-text-content'>
                             <h3>Cambridge Outstanding Learner Award</h3>
                         </div>
