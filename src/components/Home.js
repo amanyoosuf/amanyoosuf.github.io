@@ -79,14 +79,23 @@ function Home() {
             <section id='experience' className='work-section_container'>
                 <div className='content-wrapper'>
                     <h2>💼 Experience</h2>
-                    
+        
                     {/* EXPERIENCE CARD 1: URIS RESEARCH */}
-                    <div className='work-timeline-card'>
-                        <div className='experience-flex-container'>
-                            <div className='experience-logo-zone'>
-                                <img src='./polyu.png' className='company-logo' alt="PolyU Logo" />
+                    <div className='work-timeline-card' style={{ marginBottom: '25px' }}>
+                        <div className='experience-flex-container' style={{ display: 'flex', alignItems: 'flex-start', gap: '20px' }}>
+                
+                            {/* Left Side: Logo Block (Forces it to stay on the left and never shrink) */}
+                            <div className='experience-logo-zone' style={{ flexShrink: 0, width: '60px', marginTop: '5px' }}>
+                                <img 
+                                    src='./images/polyu-logo.png' 
+                                    className='company-logo' 
+                                    alt="PolyU Logo" 
+                                    style={{ width: '100%', height: 'auto', objectFit: 'contain', borderRadius: '6px' }} 
+                                />
                             </div>
-                            <div className='experience-text-zone'>
+                
+                            {/* Right Side: Text Block */}
+                            <div className='experience-text-zone' style={{ flexGrow: 1 }}>
                                 <div className='work-card-header'>
                                     <h3>Undergraduate Researcher (URIS)</h3>
                                     <span className='work-period'>Current</span>
@@ -96,27 +105,39 @@ function Home() {
                                     Participating in the Undergraduate Research and Innovation Scheme (URIS) at PolyU. Currently working on making power grids smarter and more resilient using AI-driven models for real-time state estimation.
                                 </p>
                             </div>
+
                         </div>
                     </div>
 
                     {/* EXPERIENCE CARD 2: TUTORING */}
                     <div className='work-timeline-card'>
-                        <div className='experience-flex-container'>
-                            <div className='experience-logo-zone'>
-                                <img src='./images/tutoring-logo.png' className='company-logo' alt="Tutoring Logo" />
+                        <div className='experience-flex-container' style={{ display: 'flex', alignItems: 'flex-start', gap: '20px' }}>
+                
+                            {/* Left Side: Logo Block */}
+                            <div className='experience-logo-zone' style={{ flexShrink: 0, width: '60px', marginTop: '5px' }}>
+                                <img 
+                                    src='./images/tutoring-logo.png' 
+                                    className='company-logo' 
+                                    alt="Tutoring Logo" 
+                                    style={{ width: '100%', height: 'auto', objectFit: 'contain', borderRadius: '6px' }} 
+                                />
                             </div>
-                            <div className='experience-text-zone'>
+                
+                            {/* Right Side: Text Block */}
+                            <div className='experience-text-zone' style={{ flexGrow: 1 }}>
                                 <div className='work-card-header'>
-                                    <h3>Freelance STEM & Advanced Level Tutor</h3>
+                                <h3>Freelance STEM & Advanced Level Tutor</h3>
                                     <span className='work-period'>2022 - Present</span>
                                 </div>
                                 <h4 className='work-organization'>International Curriculums (HK & Sri Lanka)</h4>
                                 <p className='work-details'>
-                                    Instructed and mentored over 40 students in Advanced Level Physics, Mathematics, and Chemistry. Developed customized problem-solving frameworks that drove significant academic performance improvements.
+                                     Instructed and mentored over 40 students in Advanced Level Physics, Mathematics, and Chemistry. Developed customized problem-solving frameworks that drove significant academic performance improvements.
                                 </p>
-                            </div>
+                                </div>
+
                         </div>
                     </div>
+
                 </div>
             </section>
 
