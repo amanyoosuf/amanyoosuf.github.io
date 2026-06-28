@@ -153,17 +153,45 @@ function Home() {
             </section>
 
             {/* 6. HONORS & AWARDS SECTION */}
-            <section id='awards' className='recognition-section_container'>
+              <section id='awards' className='recognition-section_container'>
                 <div className='content-wrapper'>
                     <h2>🏆 Honors & Awards</h2>
                     
                     <div className='award-item-row'>
-                        <span className='award-year'>2024</span>
+                        <span className='award-year'>June 2026</span>
                         <div className='award-text-content'>
-                            <h3>Edexcel Academic Achievement Outstanding Performance</h3>
-                            <p>Achieved a perfect score of 4A* at the International Advanced Level examinations.</p>
+                            <h3>Talent Development Scholarship 2025/26 (valued at 10,000HKD)</h3>
                         </div>
                     </div>
+
+                  <div className='award-item-row'>
+                        <span className='award-year'>June 2026</span>
+                        <div className='award-text-content'>
+                            <h3>Undergraduate Research & Innovation Scheme (URIS) Scholarship & Grant (valued at 50,000HKD)</h3>
+                        </div>
+                    </div>
+
+                  <div className='award-item-row'>
+                        <span className='award-year'>March 2025</span>
+                        <div className='award-text-content'>
+                            <h3>PolyU Academic Entry Scholarship (valued at almost 1M HKD)</h3>
+                        </div>
+                    </div>
+
+                    <div className='award-item-row'>
+                        <span className='award-year'>October 2024</span>
+                        <div className='award-text-content'>
+                            <h3>Edexcel High Achiever Award</h3>
+                        </div>
+                    </div>
+
+                  <div className='award-item-row'>
+                        <span className='award-year'>October 2022</span>
+                        <div className='award-text-content'>
+                            <h3>Cambridge Outstanding Learner Award</h3>
+                        </div>
+                    </div>
+                  
                     <div className='placeholder-zone'>
                         {/* Future honors layout placeholder */}
                     </div>
