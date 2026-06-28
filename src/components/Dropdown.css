@@ -1,0 +1,85 @@
+/* ==========================================================================
+   DROPDOWN CONTAINER PANEL SETUP
+   ========================================================================== */
+.dropdown-menu {
+    background: #0a192f; /* Perfectly matches your main canvas color */
+    width: 220px;
+    position: absolute;
+    top: 80px;
+    list-style: none;
+    text-align: start;
+    z-index: 999;
+    border: 1px solid rgba(100, 255, 218, 0.1); /* Subtle neon framing border */
+    border-radius: 4px;
+    box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
+}
+
+.dropdown-menu li {
+    background: #0a192f;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+/* Elegant tech slate tint on hover */
+.dropdown-menu li:hover {
+    background: #112240; 
+}
+
+.dropdown-menu.clicked {
+    display: none;
+}
+
+/* ==========================================================================
+   DROPDOWN INTERIOR MENU LINKS
+   ========================================================================== */
+.dropdown-link {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: #e6f1ff; /* Crisp bright text link formatting */
+    padding: 14px 18px;
+    font-size: 0.95rem;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    transition: all 0.2s ease;
+}
+
+/* Changes text directly to neon cyan when highlighted */
+.dropdown-link:hover {
+    color: #64ffda; 
+}
+
+/* ==========================================================================
+   MOBILE SCREEN RESPONSIVENESS MATRIX
+   ========================================================================== */
+@media screen and (max-width: 960px) {
+    .dropdown-menu {
+        width: 100%;
+        position: relative;
+        top: 0;
+        background: transparent;
+        border: none;
+        box-shadow: none;
+    }
+
+    .dropdown-menu li {
+        background: #112240; /* Elevated structural mobile rows */
+        padding: 0;
+    }
+
+    .dropdown-menu li:hover {
+        background: rgba(100, 255, 218, 0.05);
+    }
+
+    .dropdown-link {
+        padding: 1rem 2rem;
+        background: #112240;
+        border-radius: 0;
+        color: #e6f1ff;
+    }
+
+    .dropdown-link:hover {
+        background: #112240;
+        color: #64ffda;
+    }
+}
