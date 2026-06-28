@@ -160,14 +160,14 @@ function Home() {
                     <div className='award-item-row'>
                         <span className='award-year'>June 2026</span>
                         <div className='award-text-content'>
-                            <h3>Talent Development Scholarship 2025/26 (valued at 10,000HKD)</h3>
+                            <h3>Talent Development Scholarship 2025/26 (valued at 10,000 HKD)</h3>
                         </div>
                     </div>
 
                   <div className='award-item-row'>
                         <span className='award-year'>June 2026</span>
                         <div className='award-text-content'>
-                            <h3>Undergraduate Research & Innovation Scheme (URIS) Scholarship & Grant (valued at 50,000HKD)</h3>
+                            <h3>Undergraduate Research & Innovation Scheme (URIS) Scholarship & Grant (valued at 50,000 HKD)</h3>
                         </div>
                     </div>
 
