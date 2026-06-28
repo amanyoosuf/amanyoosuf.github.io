@@ -97,7 +97,7 @@ function Home() {
                                 </div>
                                 <h4 className='work-organization'>The Hong Kong Polytechnic University</h4>
                                 <p className='work-details'>
-                                    Participating in the Undergraduate Research and Innovation Scheme (URIS) at PolyU. Currently working on making power grids smarter and more resilient using AI-driven models for real-time state estimation.
+                                     in the Undergraduate Research and Innovation Scheme (URIS) at PolyU. Currently working on making power grids smarter and more resilient using AI-driven models for real-time state estimation.
                                 </p>
                             </div>
                         </div>
