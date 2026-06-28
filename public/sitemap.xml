@@ -1,0 +1,10 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+Disallow: /404.html
+
+# Sitemap
+Sitemap: https://yourusername.github.io/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
