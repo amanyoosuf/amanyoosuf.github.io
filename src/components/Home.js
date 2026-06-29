@@ -134,7 +134,7 @@ function Home() {
                             <div className='experience-text-zone' style={{ flexGrow: 1 }}>
                                 <div className='work-card-header'>
                                     <h3>Undergraduate Researcher (URIS)</h3>
-                                    <span className='work-period'>Current</span>
+                                    <span className='work-period'>September 2026 - Present</span>
                                 </div>
                                 <h4 className='work-organization'>The Hong Kong Polytechnic University</h4>
                                 <p className='work-details'>
@@ -176,6 +176,35 @@ function Home() {
 
                 </div>
             </section>
+
+                    {/* EXPERIENCE CARD 2: TUTORING */}
+                    <div className='work-timeline-card'>
+                        <div className='experience-flex-container' style={{ display: 'flex', alignItems: 'flex-start', gap: '20px' }}>
+                
+                            {/* Left Side: Logo Block */}
+                            <div className='experience-logo-zone' style={{ flexShrink: 0, width: '60px', marginTop: '5px' }}>
+                                <img 
+                                    src='./foryouedu.png' 
+                                    className='company-logo' 
+                                    alt="Tutoring Logo" 
+                                    style={{ width: '100%', height: 'auto', objectFit: 'contain', borderRadius: '6px' }} 
+                                />
+                            </div>
+                
+                            {/* Right Side: Text Block */}
+                            <div className='experience-text-zone' style={{ flexGrow: 1 }}>
+                                <div className='work-card-header'>
+                                <h3>STEM Tutor</h3>
+                                    <span className='work-period'>October 2025 - Present</span>
+                                </div>
+                                <h4 className='work-organization'>Scholastic Chess</h4>
+                                <p className='work-details'>
+                                    Delivered engaging STEM instruction through Minecraft Education to students aged 6–12 from international schools across Hong Kong, fostering creativity, collaboration, and problem-solving skills.
+                                </p>
+                                </div>
+
+                    </div>
+            
 
             {/* 5. PROJECTS SECTION */}
             <section id='projects' className='portfolio-section_container'>
