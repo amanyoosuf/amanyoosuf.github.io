@@ -174,9 +174,6 @@ function Home() {
                         </div>
                     </div>
 
-                </div>
-            </section>
-
                     {/* EXPERIENCE CARD 2: TUTORING */}
                     <div className='work-timeline-card'>
                         <div className='experience-flex-container' style={{ display: 'flex', alignItems: 'flex-start', gap: '20px' }}>
@@ -204,6 +201,9 @@ function Home() {
                                 </div>
 
                     </div>
+
+               </div>
+            </section>
             
 
             {/* 5. PROJECTS SECTION */}
