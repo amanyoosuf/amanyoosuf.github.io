@@ -191,12 +191,12 @@ function Home() {
                             {/* Right Side: Text Block */}
                             <div className='experience-text-zone' style={{ flexGrow: 1 }}>
                                 <div className='work-card-header'>
-                                    <h3>Advanced Level STEM Tutor</h3>
-                                    <span className='work-period'>2025 - Present</span>
+                                    <h3>F3-F6/IGCSE/IAL/IBMYP/IBDP/SAT Tutor</h3>
+                                    <span className='work-period'>September 2025 - Present</span>
                                 </div>
-                                <h4 className='work-organization'>For You Education Limited</h4>
+                                <h4 className='work-organization'>For You Education</h4>
                                 <p className='work-details'>
-                                    Providing premium academic tutoring and mentorship in Advanced Level Physics and Mathematics for international curriculum students in Hong Kong.
+                                    Delivered premium academic tutoring in Advanced Level Biology, Chemistry, Mathematics and Physics to students from top international schools—including HKIS, SIS, WIS, KGV, and St. Paul's Convent, at the primary Causeway Bay center.
                                 </p>
                             </div> {/* <-- Added the missing closing tag here! */}
 
