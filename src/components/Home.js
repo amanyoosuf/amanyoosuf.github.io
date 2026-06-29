@@ -174,14 +174,14 @@ function Home() {
                         </div>
                     </div>
 
-                    {/* EXPERIENCE CARD 2: TUTORING */}
+                    {/* EXPERIENCE CARD 3: TUTORING */}
                     <div className='work-timeline-card'>
                         <div className='experience-flex-container' style={{ display: 'flex', alignItems: 'flex-start', gap: '20px' }}>
                 
                             {/* Left Side: Logo Block */}
                             <div className='experience-logo-zone' style={{ flexShrink: 0, width: '60px', marginTop: '5px' }}>
                                 <img 
-                                    src='./foryouedu.png' 
+                                    src='./for_you_education_limited_logo.jpeg' 
                                     className='company-logo' 
                                     alt="Tutoring Logo" 
                                     style={{ width: '100%', height: 'auto', objectFit: 'contain', borderRadius: '6px' }} 
