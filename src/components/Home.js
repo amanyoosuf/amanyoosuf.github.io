@@ -342,7 +342,13 @@ function Home() {
                     <h2>Tutoring</h2>
                     <div className='tutoring-pitch-card'>
                         <p style={{ fontSize: '1.15rem', fontWeight: 'bold', lineHeight: '1.6', color: '#ffffff' }}>
-                            Passionate about education, I bring 4+ years of international tutoring experience across Sri Lanka, the Middle East, Europe, Southeast Asia, and Hong Kong. Having successfully guided 50+ students to achieving excellent results, I specialize in delivering effective, one-on-one instruction with full transparency and no intermediary fees. If you would like to know more, please click <a href="https://wa.me/85297630974" target="_blank" rel="noreferrer" style={{ color: '#64ffda', textDecoration: 'underline', fontWeight: 'bold' }}>here</a>.
+                            Alongside my academics, I also tutor high school students regularly. Since 2022, I have had the privilege of guiding more than 50 students across 10+ global territories through various international school curricula to achieve exceptional academic results. Currently, my I tailored instruction—both online and in-person—for students attending top international schools in Hong Kong, including HKIS, WIS, SIS, Stamford American, KIS, and The Island School, and more.
+                        </p>
+                        <p style={{ fontSize: '1.15rem', fontWeight: 'bold', lineHeight: '1.6', color: '#ffffff', marginTop: '15px' }}>
+                            Parents and students alike are welcome to find out more <a href="https://wa.me/85297630974" target="_blank" rel="noreferrer" style={{ color: '#64ffda', textDecoration: 'underline', fontWeight: 'bold' }}>here</a>.
+                        </p>
+                        <p style={{ fontSize: '1.15rem', fontWeight: 'bold', lineHeight: '1.6', color: '#ffffff', marginTop: '15px' }}>
+                            Because demand occasionally scales up, I sometimes review profiles of qualified tutors to support my students (current PolyU students preferred). If interested, please feel free to reach out!
                         </p>
                     </div>
                 </div>
