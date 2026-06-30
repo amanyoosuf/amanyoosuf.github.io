@@ -313,6 +313,15 @@ function Home() {
                                 />
                             </div>
 
+                            {/* Photo 5 */}
+                            <div style={{ flex: '1 1 300px', maxWidth: '450px' }}>
+                                <img 
+                                    src='./usrcinaction2.jpg' 
+                                    alt="Playing for USRC" 
+                                    style={{ width: '100%', maxHeight: '300px', objectFit: 'cover', borderRadius: '8px' }} 
+                                />
+                            </div>
+
                         </div>
 
                     </div>
