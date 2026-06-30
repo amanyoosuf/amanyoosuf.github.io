@@ -322,6 +322,15 @@ function Home() {
                                 />
                             </div>
 
+                            {/* Photo 6 */}
+                            <div style={{ flex: '1 1 300px', maxWidth: '450px' }}>
+                                <img 
+                                    src='./platepolyu.jpg' 
+                                    alt="Winning with PolyU" 
+                                    style={{ width: '100%', maxHeight: '300px', objectFit: 'cover', borderRadius: '8px' }} 
+                                />
+                            </div>
+
                         </div>
 
                     </div>
