@@ -69,7 +69,7 @@ function Home() {
                             <div className='education-text-zone' style={{ flexGrow: 1 }}>
                                 <div className='academic-card-header'>
                                     <h3>The Hong Kong Polytechnic University</h3>
-                                    <span className='academic-period'>September 2024 - Present</span>
+                                    <span className='academic-period'>September 2025 - Present</span>
                                 </div>
                                 <h4 className='academic-degree'>BEng in Electrical Engineering (with a Secondary Major in AIDA)</h4>
                                 <p className='academic-grade'><strong>Grade:</strong> 3.53/4.30 (as of Year 1)</p>
