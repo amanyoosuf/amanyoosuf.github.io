@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Footer.css';
 
 function Footer() {
@@ -12,43 +11,70 @@ function Footer() {
        
       <section className='social-media'>
         <div className='social-media-wrap'>
-          <div className='social-icons'>
+          <div className='social-icons' style={{ display: 'flex', gap: '20px', justifyContent: 'center', margin: '20px 0' }}>
+            
             {/* GitHub */}
-            <Link
+            <a
               className='social-icon-link github'
-              to='https://github.com/yourusername'
+              href='https://github.com/amanyoosuf'
               target='_blank'
+              rel='noreferrer'
               aria-label='GitHub'
             >
               <i className='fab fa-github fa-2x' style={{color: 'white'}} />
-            </Link>
+            </a>
 
             {/* LinkedIn */}
-            <Link
+            <a
               className='social-icon-link linkedin'
-              to='https://www.linkedin.com/in/yourusername'
+              href='https://www.linkedin.com/in/amanuryoosuf12'
               target='_blank'
+              rel='noreferrer'
               aria-label='LinkedIn'
             >
               <i className='fab fa-linkedin fa-2x' style={{color: 'white'}} />
-            </Link>
+            </a>
+
+            {/* Instagram */}
+            <a
+              className='social-icon-link instagram'
+              href='https://instagram.com/amanyoosuf'
+              target='_blank'
+              rel='noreferrer'
+              aria-label='Instagram'
+            >
+              <i className='fab fa-instagram fa-2x' style={{color: 'white'}} />
+            </a>
+
+            {/* Facebook */}
+            <a
+              className='social-icon-link facebook'
+              href='https://facebook.com/aman.yoosuf.2025/'
+              target='_blank'
+              rel='noreferrer'
+              aria-label='Facebook'
+            >
+              <i className='fab fa-facebook fa-2x' style={{color: 'white'}} />
+            </a>
 
             {/* WhatsApp Direct Chat Interlock */}
-            <Link
+            <a
               className='social-icon-link whatsapp'
-              to='https://wa.me/85297630974'
+              href='https://wa.me/85297630974'
               target='_blank'
+              rel='noreferrer'
               aria-label='WhatsApp'
             >
               <i className='fab fa-whatsapp fa-2x' style={{color: 'white'}} />
-            </Link>
+            </a>
+
           </div>
         </div>
       </section>
 
       {/* Clean Copyright & Identity Rights Frame */}
       <section className='social-media'>
-        <small className='website-rights'>Amanur Yoosuf © 2026</small>
+        <small className='website-rights'>By Aman © 2026</small>
       </section>
     </div>
   );
