@@ -134,7 +134,7 @@ function Home() {
                             <div className='experience-text-zone' style={{ flexGrow: 1 }}>
                                 <div className='work-card-header'>
                                     <h3>Undergraduate Researcher (URIS)</h3>
-                                    <span className='work-period'>September 2026 - Present</span>
+                                    <span className='work-period'>Sep 2026 - Present</span>
                                 </div>
                                 <h4 className='work-organization'>The Hong Kong Polytechnic University</h4>
                                 <p className='work-details'>
@@ -163,7 +163,7 @@ function Home() {
                             <div className='experience-text-zone' style={{ flexGrow: 1 }}>
                                 <div className='work-card-header'>
                                     <h3>STEM Tutor</h3>
-                                    <span className='work-period'>October 2025 - Present</span>
+                                    <span className='work-period'>Oct 2025 - Present</span>
                                 </div>
                                 <h4 className='work-organization'>Scholastic Chess</h4>
                                 <p className='work-details'>
@@ -192,7 +192,7 @@ function Home() {
                             <div className='experience-text-zone' style={{ flexGrow: 1 }}>
                                 <div className='work-card-header'>
                                     <h3>DSE/IGCSE/IB/SAT Tutor</h3>
-                                    <span className='work-period'>September 2025 - Present</span>
+                                    <span className='work-period'>Sep 2025 - Present</span>
                                 </div>
                                 <h4 className='work-organization'>For You Education</h4>
                                 <p className='work-details'>
@@ -266,10 +266,10 @@ function Home() {
             {/* 7. CRICKET SECTION */}
             <section id='cricket' className='athletics-section_container'>
                 <div className='content-wrapper'>
-                    <h2>🏏 Cricket</h2>
+                    <h2>Cricket</h2>
                     <div className='athletics-profile-card'>
-                        <p>
-                            On weekends, you’ll find me on the cricket pitch. I’ve played cricket my whole life and currently proudly represent both the <strong>PolyU Cricket Team</strong> and the <strong>Kowloon Cricket Club (KCC)</strong>.
+                        <p style={{ fontSize: '1.3rem', fontWeight: 'bold', lineHeight: '1.6' }}>
+                            On weekends, you’ll find me on the cricket pitch. I’ve played cricket my whole life and currently proudly represent both the <strong>PolyU Cricket Team</strong> and the <strong>Kowloon Cricket Club (KCC)</strong>. You can have a look at my <a href="https://cricclubs.com/CricketHongKong/viewPlayer.do?playerId=6589217&clubId=1105594" target="_blank" rel="noreferrer" style={{ color: '#64ffda', textDecoration: 'underline', fontWeight: 'bold' }}>Hong Kong Cricket profile here</a>.
                         </p>
                     </div>
                 </div> 
