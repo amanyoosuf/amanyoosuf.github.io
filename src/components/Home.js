@@ -271,7 +271,7 @@ function Home() {
                         
                         {/* Unified Paragraph Block */}
                         <p style={{ fontSize: '1.15rem', fontWeight: 'bold', lineHeight: '1.6', color: '#ffffff' }}>
-                            On weekends, you’ll find me on the cricket pitch. I’ve played cricket my whole life and currently proudly represent both the <strong>PolyU Cricket Team</strong> and the <strong>Kowloon Cricket Club (KCC)</strong>. You can have a look at my Hong Kong Cricket profile <a href="https://cricclubs.com/CricketHongKong/viewPlayer.do?playerId=6589217&clubId=1105594" target="_blank" rel="noreferrer" style={{ color: '#64ffda', textDecoration: 'underline', fontWeight: 'bold' }}>here</a>.
+                            On weekends, you’ll find me on the cricket pitch. I’ve played cricket my whole life and currently proudly represent both the PolyU Cricket Team and the United Services Recreation Club (USRC)</strong>. You can have a look at my Hong Kong Cricket profile <a href="https://cricclubs.com/CricketHongKong/viewPlayer.do?playerId=6589217&clubId=1105594" target="_blank" rel="noreferrer" style={{ color: '#64ffda', textDecoration: 'underline', fontWeight: 'bold' }}>here</a>.
                         </p>
 
                         {/* Cricket Action Photos Row Directly Below Text */}
@@ -341,10 +341,10 @@ function Home() {
             {/* 8. TUTORING SUMMARY PREVIEW SECTION */}
             <section id='tutoring' className='services-section_container'>
                 <div className='content-wrapper'>
-                    <h2>💡 Tutoring Overview</h2>
+                    <h2>Tutoring</h2>
                     <div className='tutoring-pitch-card'>
-                        <p>
-                            I’m heavily involved in teaching and academic mentoring. With over four years of experience, I’ve successfully taught and guided more than 40 students across various international schools in Hong Kong.
+                        <p style={{ fontSize: '1.15rem', fontWeight: 'bold', lineHeight: '1.6', color: '#ffffff' }}>
+                            Passionate about education, I bring 4+ years of international tutoring experience across Sri Lanka, the Middle East, Europe, Southeast Asia, and Hong Kong. Having successfully guided 50+ students to achieving excellent results, I specialize in delivering effective, one-on-one instruction with full transparency and no intermediary fees. If you would like to know more, please click <a href="YOUR_CONTACT_OR_EMAIL_LINK" target="_blank" rel="noreferrer" style={{ color: '#64ffda', textDecoration: 'underline', fontWeight: 'bold' }}>here.
                         </p>
                         <div className='subject-tags_container'>
                             <span className='subject-tag'>Physics</span>
