@@ -5,6 +5,23 @@ import './mainCon.css';
 import Footer from './Footer'; 
 
 function Home() {
+    // Reusable styles for the futuristic turquoise section headers
+    const sectionHeaderStyle = {
+        fontFamily: 'monospace',
+        color: '#64ffda',
+        fontSize: '1.6rem',
+        letterSpacing: '1.5px',
+        textTransform: 'uppercase',
+        display: 'inline-flex',
+        alignItems: 'center',
+        gap: '10px',
+        background: 'rgba(100, 255, 218, 0.05)',
+        borderLeft: '3px solid #64ffda',
+        padding: '6px 16px',
+        borderRadius: '0 4px 4px 0',
+        marginBottom: '35px'
+    };
+
     return (
         <> 
             {/* 1. HERO LANDING ZONE */}
@@ -27,7 +44,7 @@ function Home() {
             {/* 3. EDUCATION SECTION */}
             <section id='education' className='academic-section_container'>
                 <div className='content-wrapper'>
-                    <h2>🎓 Education</h2>
+                    <h2 style={sectionHeaderStyle}>🎓 01. Education</h2>
                     
                     {/* POLYU CARD */}
                     <div className='academic-timeline-card' style={{ marginBottom: '25px' }}>
@@ -92,7 +109,7 @@ function Home() {
             {/* 4. EXPERIENCE SECTION */}
             <section id='experience' className='work-section_container'>
                 <div className='content-wrapper'>
-                    <h2>💼 Experience</h2>
+                    <h2 style={sectionHeaderStyle}>💼 02. Experience</h2>
         
                     {/* EXPERIENCE CARD 1: URIS RESEARCH */}
                     <div className='work-timeline-card' style={{ marginBottom: '25px' }}>
@@ -153,7 +170,7 @@ function Home() {
                     </div>
 
                     {/* EXPERIENCE CARD 3: FOR YOU EDUCATION */}
-                    <div className='work-timeline-card'>
+                    <div className='work-timeline-card' style={{ marginBottom: '25px' }}>
                         <div className='experience-flex-container' style={{ display: 'flex', alignItems: 'flex-start', gap: '20px' }}>
                 
                             {/* Left Side: Logo Block */}
@@ -187,7 +204,7 @@ function Home() {
             {/* 5. PROJECTS SECTION */}
             <section id='projects' className='portfolio-section_container'>
                 <div className='content-wrapper'>
-                    <h2>🚀 Projects</h2>
+                    <h2 style={sectionHeaderStyle}>🚀 03. Projects</h2>
                     <Cards /> 
                     <div className='placeholder-zone'>
                         {/* Custom project sub-lines layout placeholder */}
@@ -198,7 +215,7 @@ function Home() {
             {/* 6. HONORS & AWARDS SECTION */}
             <section id='awards' className='recognition-section_container'>
                 <div className='content-wrapper'>
-                    <h2>🏆 Honors & Awards</h2>
+                    <h2 style={sectionHeaderStyle}>🏆 04. Honors & Awards</h2>
                     
                     <div className='award-item-row'>
                         <span className='award-year'>2026</span>
@@ -244,7 +261,7 @@ function Home() {
             {/* 7. CRICKET SECTION */}
             <section id='cricket' className='athletics-section_container'>
                 <div className='content-wrapper'>
-                    <h2>🏏 Cricket</h2>
+                    <h2 style={sectionHeaderStyle}>🏏 05. Cricket</h2>
                     <div className='athletics-profile-card'>
                         
                         <p style={{ fontSize: '1.15rem', fontWeight: 'bold', lineHeight: '1.6', color: '#ffffff' }}>
@@ -284,7 +301,7 @@ function Home() {
                             {/* Photo 4 */}
                             <div style={{ flex: '1 1 300px', maxWidth: '450px' }}>
                                 <img 
-                                    src='./polyuinaction.jpg' 
+                                    src./polyuinaction.jpg' 
                                     alt="Playing for PolyU" 
                                     style={{ width: '100%', height: '250px', objectFit: 'cover', borderRadius: '8px' }} 
                                 />
@@ -317,12 +334,12 @@ function Home() {
             {/* 8. TUTORING SUMMARY PREVIEW SECTION */}
             <section id='tutoring' className='services-section_container'>
                 <div className='content-wrapper'>
-                    <h2>Tutoring</h2>
+                    <h2 style={sectionHeaderStyle}>👨‍🏫 06. Tutoring</h2>
                     <div className='tutoring-pitch-card'>
                         <p style={{ fontSize: '1.15rem', lineHeight: '1.6', color: '#ffffff' }}>
-                            Alongside my academics, I also tutor high school students regularly. Since 2022, I have had the privilege of guiding more than 50 students across 10+ global territories through various international school curricula to achieve exceptional academic results. Currently, my I tailored instruction—both online and in-person—for students attending top international schools in Hong Kong, including HKIS, WIS, SIS, Stamford American, KIS, and The Island School, and more.
+                            Alongside my academics, I also tutor high school students regularly. Since 2022, I have had the privilege of guiding more than 50 students across 10+ global territories through various international school curricula to achieve exceptional academic results. Currently, I tailor instruction—both online and in-person—for students attending top international schools in Hong Kong, including HKIS, WIS, SIS, Stamford American, KIS, and The Island School, and more.
                         </p>
-                        <p style={{ fontSize: '1.15em', lineHeight: '1.6', color: '#ffffff', marginTop: '15px' }}>
+                        <p style={{ fontSize: '1.15rem', lineHeight: '1.6', color: '#ffffff', marginTop: '15px' }}>
                             Parents and students alike are welcome to find out more <a href="https://wa.me/85297630974" target="_blank" rel="noreferrer" style={{ color: '#64ffda', textDecoration: 'underline', fontWeight: 'bold' }}>here</a>.
                         </p>
                         <p style={{ fontSize: '1.15rem', lineHeight: '1.6', color: '#ffffff', marginTop: '15px' }}>
@@ -331,7 +348,7 @@ function Home() {
                     </div>
                 </div>
             </section>
-                                
+                                        
             <Footer />
         </>
     );
