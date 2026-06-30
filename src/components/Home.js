@@ -14,45 +14,140 @@ function Home() {
                 style={{ 
                     backgroundColor: '#020c1b', 
                     borderBottom: '2px solid rgba(100, 255, 218, 0.2)',
-                    boxShadow: '0 10px 30px -10px rgba(2, 12, 27, 0.7)'
+                    position: 'relative',
+                    overflow: 'hidden',
+                    padding: '140px 24px 100px 24px',
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    minHeight: '85vh'
                 }}
             >
-                <div className='hero-content_wrapper'>
-                    <div className='hero-intro-text'>
-                        <span className='hero-subtitle'>📍 Hong Kong | Year 2 @ PolyU</span>
-                        <h1 className='hero-title'>Amanur Yoosuf</h1>
-                        <p className='hero-tagline'>
-                            Electrical Engineering student with a secondary major in Artificial Intelligence & Data Analytics (AIDA). Exploring power systems, smart grids, and electronics.
-                        </p>
-                        <div className='hero-cta-buttons'>
-                            <a href='#aboutme' className='cta-btn primary'>About Me</a>
-                            <a href='mailto:amanur.yoosuf@connect.polyu.hk' className='cta-btn secondary'>Let's Connect</a>
+                {/* Tech Stack Subtle Watermark Grid System */}
+                <div 
+                    style={{
+                        position: 'absolute',
+                        top: '15%',
+                        right: '5%',
+                        fontFamily: 'monospace',
+                        fontSize: '10rem',
+                        fontWeight: '900',
+                        color: 'rgba(100, 255, 218, 0.02)',
+                        userSelect: 'none',
+                        lineHeight: '1',
+                        zIndex: 1
+                    }}
+                >
+                    EE // AI
+                </div>
+            
+                <div className='hero-content_wrapper' style={{ maxWidth: '1000px', width: '100%', zIndex: 2 }}>
+                    <div className='hero-intro-text' style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
+                        
+                        {/* Terminal Style Introduction Banner */}
+                        <div 
+                            style={{
+                                display: 'flex',
+                                alignItems: 'center',
+                                gap: '10px',
+                                background: 'rgba(100, 255, 218, 0.06)',
+                                border: '1px solid rgba(100, 255, 218, 0.15)',
+                                padding: '6px 14px',
+                                borderRadius: '20px',
+                                marginBottom: '28px'
+                            }}
+                        >
+                            <span style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: '#64ffda', animate: 'pulse 2s infinite' }}></span>
+                            <span className='hero-subtitle' style={{ fontFamily: 'monospace', color: '#64ffda', fontSize: '0.9rem', letterSpacing: '1px', textTransform: 'uppercase' }}>
+                                [sys.status]: Year 2 @ PolyU HK // Electrical Engineering & AIDA
+                            </span>
                         </div>
+            
+                        {/* High-Impact Identity Block */}
+                        <h1 
+                            className='hero-title' 
+                            style={{ 
+                                fontSize: 'clamp(2.5rem, 6vw, 4.5rem)', 
+                                fontWeight: '800', 
+                                color: '#ffffff', 
+                                lineHeight: '1.1',
+                                marginBottom: '10px',
+                                letterSpacing: '-1px'
+                            }}
+                        >
+                            Amanur Yoosuf.
+                        </h1>
+                        
+                        <h2 
+                            style={{ 
+                                fontSize: 'clamp(1.8rem, 4vw, 3rem)', 
+                                fontWeight: '700', 
+                                color: 'rgba(255, 255, 255, 0.7)', 
+                                lineHeight: '1.2',
+                                marginBottom: '30px'
+                            }}
+                        >
+                            Engineering the intersection of power and intelligence.
+                        </h2>
+            
+                        {/* Strategic Technical Narrative */}
+                        <p 
+                            className='hero-tagline'
+                            style={{
+                                fontSize: '1.15rem',
+                                lineHeight: '1.7',
+                                color: 'rgba(255, 255, 255, 0.6)',
+                                maxWidth: '640px',
+                                marginBottom: '45px'
+                            }}
+                        >
+                            I specialize in heavy-system power frameworks and smart grids, backed by data analytics and AI infrastructure. Beyond academia, I manage an elite international independent tutoring network spanning over 10 global territories.
+                        </p>
+            
+                        {/* Re-engineered Geometric Buttons */}
+                        <div className='hero-cta-buttons' style={{ display: 'flex', gap: '20px', flexWrap: 'wrap' }}>
+                            <a 
+                                href='#aboutme' 
+                                className='cta-btn primary'
+                                style={{
+                                    padding: '14px 28px',
+                                    backgroundColor: 'transparent',
+                                    color: '#64ffda',
+                                    border: '1px solid #64ffda',
+                                    borderRadius: '4px',
+                                    fontFamily: 'monospace',
+                                    fontSize: '0.95rem',
+                                    fontWeight: '600',
+                                    textDecoration: 'none',
+                                    transition: 'all 0.25s cubic-bezier(0.25, 0.8, 0.25, 1)'
+                                }}
+                            >
+                                execute_initiation(.about)
+                            </a>
+                            
+                            <a 
+                                href='mailto:amanur.yoosuf@connect.polyu.hk' 
+                                className='cta-btn secondary'
+                                style={{
+                                    padding: '14px 28px',
+                                    backgroundColor: 'rgba(100, 255, 218, 0.05)',
+                                    color: '#ffffff',
+                                    border: '1px solid rgba(100, 255, 218, 0.2)',
+                                    borderRadius: '4px',
+                                    fontFamily: 'monospace',
+                                    fontSize: '0.95rem',
+                                    fontWeight: '500',
+                                    textDecoration: 'none',
+                                    transition: 'all 0.25s cubic-bezier(0.25, 0.8, 0.25, 1)'
+                                }}
+                            >
+                                establish_link(.email)
+                            </a>
+                        </div>
+            
                     </div>
                 </div>
             </header>
-
-            {/* 2. ABOUT ME SECTION */}
-            <section id='aboutme' className='profile-section_container'>
-                <div className='content-grid-split'>
-                    <div className='profile-text-block'>
-                        <h2>About Me</h2>
-                        <div className='profile-body-text'>
-                            <p>
-                                Hey everyone! My name is Aman, a Year 2 Electrical Engineering student at <strong>The Hong Kong Polytechnic University</strong>, with a secondary major in <strong>AIDA (Artificial Intelligence and Data Analytics)</strong>. Originally from Sri Lanka, I now study and live in Hong Kong.
-                            </p>
-                            <p>
-                                I’m passionate about several fields within the endless realm of Electrical Engineering, including power systems, electronics, IoT, and robotics. I’m always looking to explore new opportunities to diversify my knowledge and build meaningful skills.
-                            </p>
-                        </div>
-                    </div>
-                    <div className='profile-showcase-block'>
-                        <div className='avatar-frame'>
-                            <img src='./insta.jpg' className='profile-image' alt="Aman Yoosuf - PolyU Electrical Engineering" />
-                        </div>
-                    </div>
-                </div>
-            </section>
 
             {/* 3. EDUCATION SECTION */}
             <section id='education' className='academic-section_container'>
