@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#0a192f" />
     
@@ -69,8 +68,12 @@
     }
     </script>
     
-    <!-- Updated this line below to target favicon.ico directly -->
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.ico" />
+    <!-- Modern Favicon Package Configuration -->
+    <link rel="icon" type="image/png" href="%PUBLIC_URL%/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="%PUBLIC_URL%/favicon.svg" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/apple-touch-icon.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/site.webmanifest" />
     
     <script type="text/javascript">
       (function(l) {
@@ -95,11 +98,10 @@
       href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap"
       rel="stylesheet"
     />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <script src="bundle.js"></script>
-  </head>
+  </body>
 </html>
