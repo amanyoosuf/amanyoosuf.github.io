@@ -268,8 +268,8 @@ function Home() {
                 <div className='content-wrapper'>
                     <h2>Cricket</h2>
                     <div className='athletics-profile-card'>
-                        <p style={{ fontSize: '1.3rem', fontWeight: 'bold', lineHeight: '1.6', color: '#ffffff' }}>
-                            On weekends, you’ll find me on the cricket pitch. I’ve played cricket my whole life and currently proudly represent both the <strong>PolyU Cricket Team</strong> and the <strong>Kowloon Cricket Club (KCC)</strong>. You can have a look at my Hong Kong Cricket profile <a href="https://cricclubs.com/CricketHongKong/viewPlayer.do?playerId=6589217&clubId=1105594" target="_blank" rel="noreferrer" style={{ color: '#64ffda', textDecoration: 'underline', fontWeight: 'bold' }}>here</a>.
+                        <p style={{ fontSize: '1.0rem', fontWeight: 'bold', lineHeight: '1.6', color: '#ffffff' }}>
+                            On weekends, you’ll find me on the cricket pitch. I’ve played cricket my whole life and currently proudly represent both the PolyU Cricket Team and the Kowloon Cricket Club (KCC). You can have a look at my Hong Kong Cricket profile <a href="https://cricclubs.com/CricketHongKong/viewPlayer.do?playerId=6589217&clubId=1105594" target="_blank" rel="noreferrer" style={{ color: '#64ffda', textDecoration: 'underline', fontWeight: 'bold' }}>here</a>.
                         </p>
                     </div>
                 </div> 
