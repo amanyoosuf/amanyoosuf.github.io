@@ -369,28 +369,20 @@ function Home() {
                 <div className='content-wrapper'>
                     <h2>Let's Connect!</h2>
                     <div className='contact-methods-box' style={{ marginTop: '20px' }}>
-                        <div className='contact-links-grid' style={{ display: 'flex', flexDirection: 'column', gap: '15px' }}>
+                        <div className='contact-links-grid' style={{ display: 'flex', flexDirection: 'column', gap: '20px', alignItems: 'flex-start' }}>
                             
-                            {/* University Email */}
-                            <div>
-                                <span style={{ color: '#ffffff', fontSize: '1.15rem' }}>University: </span>
-                                <a 
-                                    href="mailto:amanur.yoosuf@connect.polyu.hk" 
-                                    className='contact-link' 
-                                    style={{ color: '#64ffda', textDecoration: 'underline', fontWeight: 'bold', fontSize: '1.15rem' }}
-                                >
+                            {/* University Email Button */}
+                            <div className='my-email' style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                                <span style={{ color: '#ffffff', fontSize: '1.1rem', minWidth: '100px' }}>University:</span>
+                                <a href="mailto:amanur.yoosuf@connect.polyu.hk">
                                     amanur.yoosuf@connect.polyu.hk
                                 </a>
                             </div>
 
-                            {/* Personal Email */}
-                            <div>
-                                <span style={{ color: '#ffffff', fontSize: '1.15rem' }}>Personal: </span>
-                                <a 
-                                    href="mailto:aryoosuf49@gmail.com" 
-                                    className='contact-link' 
-                                    style={{ color: '#64ffda', textDecoration: 'underline', fontWeight: 'bold', fontSize: '1.15rem' }}
-                                >
+                            {/* Personal Email Button */}
+                            <div className='my-email' style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                                <span style={{ color: '#ffffff', fontSize: '1.1rem', minWidth: '100px' }}>Personal:</span>
+                                <a href="mailto:aryoosuf49@gmail.com">
                                     aryoosuf49@gmail.com
                                 </a>
                             </div>
