@@ -198,7 +198,7 @@ function Home() {
                                 <p className='work-details'>
                                     Delivered premium academic tutoring in Advanced Level Biology, Chemistry, Mathematics and Physics to students from top international schools—including HKIS, SIS, WIS, KGV, and St. Paul's Convent, at the primary Causeway Bay center.
                                 </p>
-                            </div> {/* <-- Added the missing closing tag here! */}
+                            </div>
 
                         </div>
                     </div>
@@ -218,7 +218,7 @@ function Home() {
             </section>
 
             {/* 6. HONORS & AWARDS SECTION */}
-              <section id='awards' className='recognition-section_container'>
+            <section id='awards' className='recognition-section_container'>
                 <div className='content-wrapper'>
                     <h2>🏆 Honors & Awards</h2>
                     
@@ -229,14 +229,14 @@ function Home() {
                         </div>
                     </div>
 
-                  <div className='award-item-row'>
+                    <div className='award-item-row'>
                         <span className='award-year'>2026</span>
                         <div className='award-text-content'>
                             <h3>Undergraduate Research & Innovation Scheme (URIS) Scholarship & Grant (valued at 50,000 HKD)</h3>
                         </div>
                     </div>
 
-                  <div className='award-item-row'>
+                    <div className='award-item-row'>
                         <span className='award-year'>2025</span>
                         <div className='award-text-content'>
                             <h3>PolyU Academic Entry Scholarship (valued at almost 1M HKD)</h3>
@@ -250,13 +250,13 @@ function Home() {
                         </div>
                     </div>
 
-                  <div className='award-item-row'>
+                    <div className='award-item-row'>
                         <span className='award-year'>2022</span>
                         <div className='award-text-content'>
                             <h3>Cambridge Outstanding Learner Award</h3>
                         </div>
                     </div>
-                  
+                    
                     <div className='placeholder-zone'>
                         {/* Future honors layout placeholder */}
                     </div>
@@ -269,9 +269,8 @@ function Home() {
                     <h2>🏏 Cricket</h2>
                     <div className='athletics-profile-card'>
                         
-                        {/* Unified Paragraph Block */}
                         <p style={{ fontSize: '1.15rem', fontWeight: 'bold', lineHeight: '1.6', color: '#ffffff' }}>
-                            On weekends, you’ll find me on the cricket pitch. I’ve played cricket my whole life and currently proudly represent both the PolyU Cricket Team and the United Services Recreation Club (USRC)</strong>. You can have a look at my Hong Kong Cricket profile <a href="https://cricclubs.com/CricketHongKong/viewPlayer.do?playerId=6589217&clubId=1105594" target="_blank" rel="noreferrer" style={{ color: '#64ffda', textDecoration: 'underline', fontWeight: 'bold' }}>here</a>.
+                            On weekends, you’ll find me on the cricket pitch. I’ve played cricket my whole life and currently proudly represent both the <strong>PolyU Cricket Team</strong> and the <strong>United Services Recreation Club (USRC)</strong>. You can have a look at my Hong Kong Cricket profile <a href="https://cricclubs.com/CricketHongKong/viewPlayer.do?playerId=6589217&clubId=1105594" target="_blank" rel="noreferrer" style={{ color: '#64ffda', textDecoration: 'underline', fontWeight: 'bold' }}>here</a>.
                         </p>
 
                         {/* Cricket Action Photos Row Directly Below Text */}
@@ -282,7 +281,7 @@ function Home() {
                                 <img 
                                     src='./polyucricketteam1.jpg' 
                                     alt="PolyU Cricket Team" 
-                                    style={{ width: '100%', maxHeight: '300px', objectFit: 'cover', borderRadius: '8px' }} 
+                                    style={{ width: '100%', height: '250px', objectFit: 'cover', borderRadius: '8px' }} 
                                 />
                             </div>
 
@@ -291,7 +290,7 @@ function Home() {
                                 <img 
                                     src='./polyucricketteam2.jpg' 
                                     alt="Cricket Training" 
-                                    style={{ width: '100%', maxHeight: '300px', objectFit: 'cover', borderRadius: '8px' }} 
+                                    style={{ width: '100%', height: '250px', objectFit: 'cover', borderRadius: '8px' }} 
                                 />
                             </div>
 
@@ -300,7 +299,7 @@ function Home() {
                                 <img 
                                     src='./usrcinaction.jpg' 
                                     alt="Playing for USRC" 
-                                    style={{ width: '100%', maxHeight: '300px', objectFit: 'cover', borderRadius: '8px' }} 
+                                    style={{ width: '100%', height: '250px', objectFit: 'cover', borderRadius: '8px' }} 
                                 />
                             </div>
 
@@ -309,7 +308,7 @@ function Home() {
                                 <img 
                                     src='./polyuinaction.jpg' 
                                     alt="Playing for PolyU" 
-                                    style={{ width: '100%', maxHeight: '300px', objectFit: 'cover', borderRadius: '8px' }} 
+                                    style={{ width: '100%', height: '250px', objectFit: 'cover', borderRadius: '8px' }} 
                                 />
                             </div>
 
@@ -318,7 +317,7 @@ function Home() {
                                 <img 
                                     src='./usrcinaction2.jpg' 
                                     alt="Playing for USRC" 
-                                    style={{ width: '100%', maxHeight: '300px', objectFit: 'cover', borderRadius: '8px' }} 
+                                    style={{ width: '100%', height: '250px', objectFit: 'cover', borderRadius: '8px' }} 
                                 />
                             </div>
 
@@ -327,7 +326,7 @@ function Home() {
                                 <img 
                                     src='./platepolyu.jpg' 
                                     alt="Winning with PolyU" 
-                                    style={{ width: '100%', maxHeight: '300px', objectFit: 'cover', borderRadius: '8px' }} 
+                                    style={{ width: '100%', height: '250px', objectFit: 'cover', borderRadius: '8px' }} 
                                 />
                             </div>
 
@@ -337,14 +336,13 @@ function Home() {
                 </div> 
             </section>
 
-
             {/* 8. TUTORING SUMMARY PREVIEW SECTION */}
             <section id='tutoring' className='services-section_container'>
                 <div className='content-wrapper'>
                     <h2>Tutoring</h2>
                     <div className='tutoring-pitch-card'>
                         <p style={{ fontSize: '1.15rem', fontWeight: 'bold', lineHeight: '1.6', color: '#ffffff' }}>
-                            Passionate about education, I bring 4+ years of international tutoring experience across Sri Lanka, the Middle East, Europe, Southeast Asia, and Hong Kong. Having successfully guided 50+ students to achieving excellent results, I specialize in delivering effective, one-on-one instruction with full transparency and no intermediary fees. If you would like to know more, please click <a href="YOUR_CONTACT_OR_EMAIL_LINK" target="_blank" rel="noreferrer" style={{ color: '#64ffda', textDecoration: 'underline', fontWeight: 'bold' }}>here.
+                            Passionate about education, I bring 4+ years of international tutoring experience across Sri Lanka, the Middle East, Europe, Southeast Asia, and Hong Kong. Having successfully guided 50+ students to achieving excellent results, I specialize in delivering effective, one-on-one instruction with full transparency and no intermediary fees. If you would like to know more, please click <a href="https://wa.me/85297630974" target="_blank" rel="noreferrer" style={{ color: '#64ffda', textDecoration: 'underline', fontWeight: 'bold' }}>here</a>.
                         </p>
                     </div>
                 </div>
