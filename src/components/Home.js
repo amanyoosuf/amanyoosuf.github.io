@@ -367,16 +367,34 @@ function Home() {
             {/* 10. LET'S CONNECT SECTION */}
             <section id='connect' className='contact-section_container'>
                 <div className='content-wrapper'>
-                    <h2>📫 Let's Connect</h2>
-                    <div className='contact-methods-box'>
-                        <p>Feel free to reach out to me for research collaborations, premium academic tutoring, or anything cricket related!</p>
-                        <div className='contact-links-grid'>
-                            <a href="mailto:amanur.yoosuf@connect.polyu.hk" className='contact-btn email'>
-                                <i className='fas fa-envelope' /> amanur.yoosuf@connect.polyu.hk
-                            </a>
-                            <a href="https://wa.me/85297630974" target="_blank" rel="noreferrer" className='contact-btn whatsapp'>
-                                <i className='fab fa-whatsapp' /> +852 9763 0974
-                            </a>
+                    <h2>Let's Connect!</h2>
+                    <div className='contact-methods-box' style={{ marginTop: '20px' }}>
+                        <div className='contact-links-grid' style={{ display: 'flex', flexDirection: 'column', gap: '15px' }}>
+                            
+                            {/* University Email */}
+                            <div>
+                                <span style={{ color: '#ffffff', fontSize: '1.15rem' }}>University: </span>
+                                <a 
+                                    href="mailto:amanur.yoosuf@connect.polyu.hk" 
+                                    className='contact-link' 
+                                    style={{ color: '#64ffda', textDecoration: 'underline', fontWeight: 'bold', fontSize: '1.15rem' }}
+                                >
+                                    amanur.yoosuf@connect.polyu.hk
+                                </a>
+                            </div>
+
+                            {/* Personal Email */}
+                            <div>
+                                <span style={{ color: '#ffffff', fontSize: '1.15rem' }}>Personal: </span>
+                                <a 
+                                    href="mailto:aryoosuf49@gmail.com" 
+                                    className='contact-link' 
+                                    style={{ color: '#64ffda', textDecoration: 'underline', fontWeight: 'bold', fontSize: '1.15rem' }}
+                                >
+                                    aryoosuf49@gmail.com
+                                </a>
+                            </div>
+
                         </div>
                     </div>
                 </div>
