@@ -40,7 +40,7 @@ function Home() {
                     </div>
                     <div className='profile-showcase-block'>
                         <div className='avatar-frame'>
-                            <img src='./your-profile-pic.png' className='profile-image' alt="Aman Yoosuf - PolyU Electrical Engineering" />
+                            <img src='./insta.jpg' className='profile-image' alt="Aman Yoosuf - PolyU Electrical Engineering" />
                         </div>
                     </div>
                 </div>
