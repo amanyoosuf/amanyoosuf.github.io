@@ -191,7 +191,7 @@ function Home() {
                             {/* Right Side: Text Block */}
                             <div className='experience-text-zone' style={{ flexGrow: 1 }}>
                                 <div className='work-card-header'>
-                                    <h3>F3-F6/IGCSE/IAL/IBMYP/IBDP/SAT Tutor</h3>
+                                    <h3>HKDSE/IGCSE/IAL/IB/SAT Tutor</h3>
                                     <span className='work-period'>September 2025 - Present</span>
                                 </div>
                                 <h4 className='work-organization'>For You Education</h4>
