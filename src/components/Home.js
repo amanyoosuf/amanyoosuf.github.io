@@ -331,18 +331,7 @@ function Home() {
                     </div>
                 </div>
             </section>
-
-            {/* 9. TRAVEL + MORE SECTION */}
-            <section id='travel' className='lifestyle-section_container'>
-                <div className='content-wrapper'>
-                    <h2>✈️ Travel + more</h2>
-                    <div className='athletics-profile-card'>
-                        <p>Exploring diverse international academic environments, field studies, and unique cultural paths outside of the research lab.</p>
-                    </div>
-                </div>
-            </section>
-
-                      
+                                
             <Footer />
         </>
     );
