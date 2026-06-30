@@ -346,11 +346,6 @@ function Home() {
                         <p style={{ fontSize: '1.15rem', fontWeight: 'bold', lineHeight: '1.6', color: '#ffffff' }}>
                             Passionate about education, I bring 4+ years of international tutoring experience across Sri Lanka, the Middle East, Europe, Southeast Asia, and Hong Kong. Having successfully guided 50+ students to achieving excellent results, I specialize in delivering effective, one-on-one instruction with full transparency and no intermediary fees. If you would like to know more, please click <a href="YOUR_CONTACT_OR_EMAIL_LINK" target="_blank" rel="noreferrer" style={{ color: '#64ffda', textDecoration: 'underline', fontWeight: 'bold' }}>here.
                         </p>
-                        <div className='subject-tags_container'>
-                            <span className='subject-tag'>Physics</span>
-                            <span className='subject-tag'>Mathematics</span>
-                            <span className='subject-tag'>Chemistry</span>
-                        </div>
                     </div>
                 </div>
             </section>
