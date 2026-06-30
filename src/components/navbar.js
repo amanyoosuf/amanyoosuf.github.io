@@ -64,7 +64,7 @@ function Navbar() {
     };
 
     return (
-        <Headroom>
+        <Headroom disable>
             <nav 
                 className='navbar' 
                 style={{ 
