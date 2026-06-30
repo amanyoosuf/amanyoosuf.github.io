@@ -8,7 +8,15 @@ function Home() {
     return (
         <> 
             {/* 1. HERO LANDING ZONE */}
-            <header id='welcome' className='hero-section_container'>
+            <header 
+                id='welcome' 
+                className='hero-section_container' 
+                style={{ 
+                    backgroundColor: '#020c1b', 
+                    borderBottom: '2px solid rgba(100, 255, 218, 0.2)',
+                    boxShadow: '0 10px 30px -10px rgba(2, 12, 27, 0.7)'
+                }}
+            >
                 <div className='hero-content_wrapper'>
                     <div className='hero-intro-text'>
                         <span className='hero-subtitle'>📍 Hong Kong | Year 2 @ PolyU</span>
