@@ -94,7 +94,7 @@ function Navbar() {
                         textDecoration: 'none'
                     }}
                 >
-                    AMANUR // AY
+                    AMAN YOOSUF
                 </Link>
  
                 <div className='menu-icon' onClick={handleClick} style={{ color: '#64ffda' }}>
