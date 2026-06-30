@@ -18,7 +18,7 @@ function Home() {
                         </p>
                         <div className='hero-cta-buttons'>
                             <a href='#aboutme' className='cta-btn primary'>About Me</a>
-                            <a href='#connect' className='cta-btn secondary'>Let's Connect</a>
+                            <a href='mailto:amanur.yoosuf@connect.polyu.hk' className='cta-btn secondary'>Let's Connect</a>
                         </div>
                     </div>
                 </div>
@@ -364,34 +364,7 @@ function Home() {
                 </div>
             </section>
 
-            {/* 10. LET'S CONNECT SECTION */}
-            <section id='connect' className='contact-section_container'>
-                <div className='content-wrapper'>
-                    <h2>Let's Connect!</h2>
-                    <div className='contact-methods-box' style={{ marginTop: '20px' }}>
-                        <div className='contact-links-grid' style={{ display: 'flex', flexDirection: 'column', gap: '20px', alignItems: 'flex-start' }}>
-                            
-                            {/* University Email Button */}
-                            <div className='my-email' style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-                                <span style={{ color: '#ffffff', fontSize: '1.1rem', minWidth: '100px' }}>University:</span>
-                                <a href="mailto:amanur.yoosuf@connect.polyu.hk">
-                                    amanur.yoosuf@connect.polyu.hk
-                                </a>
-                            </div>
-
-                            {/* Personal Email Button */}
-                            <div className='my-email' style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-                                <span style={{ color: '#ffffff', fontSize: '1.1rem', minWidth: '100px' }}>Personal:</span>
-                                <a href="mailto:aryoosuf49@gmail.com">
-                                    aryoosuf49@gmail.com
-                                </a>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </section>
-           
+                      
             <Footer />
         </>
     );
