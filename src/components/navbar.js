@@ -15,8 +15,7 @@ const NAVIGATION_ITEMS = [
     { id: 'awards', label: 'Awards' },
     { id: 'cricket', label: 'Cricket' },
     { id: 'tutoring', label: 'Tutoring' },
-    { id: 'travel', label: 'Travel' }
-];
+    ];
 
 function Navbar() {
     const [click, setClick] = useState(false);
