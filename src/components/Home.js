@@ -266,14 +266,59 @@ function Home() {
             {/* 7. CRICKET SECTION */}
             <section id='cricket' className='athletics-section_container'>
                 <div className='content-wrapper'>
-                    <h2>Cricket</h2>
+                    <h2>🏏 Cricket</h2>
                     <div className='athletics-profile-card'>
-                        <p style={{ fontSize: '1.0rem', fontWeight: 'bold', lineHeight: '1.6', color: '#ffffff' }}>
-                            On weekends, you’ll find me on the cricket pitch. I’ve played cricket my whole life and currently proudly represent both the PolyU Cricket Team and the Kowloon Cricket Club (KCC). You can have a look at my Hong Kong Cricket profile <a href="https://cricclubs.com/CricketHongKong/viewPlayer.do?playerId=6589217&clubId=1105594" target="_blank" rel="noreferrer" style={{ color: '#64ffda', textDecoration: 'underline', fontWeight: 'bold' }}>here</a>.
+                        
+                        {/* Unified Paragraph Block */}
+                        <p style={{ fontSize: '1.15rem', fontWeight: 'bold', lineHeight: '1.6', color: '#ffffff' }}>
+                            On weekends, you’ll find me on the cricket pitch. I’ve played cricket my whole life and currently proudly represent both the <strong>PolyU Cricket Team</strong> and the <strong>Kowloon Cricket Club (KCC)</strong>. You can have a look at my Hong Kong Cricket profile <a href="https://cricclubs.com/CricketHongKong/viewPlayer.do?playerId=6589217&clubId=1105594" target="_blank" rel="noreferrer" style={{ color: '#64ffda', textDecoration: 'underline', fontWeight: 'bold' }}>here</a>.
                         </p>
+
+                        {/* Cricket Action Photos Row Directly Below Text */}
+                        <div className='cricket-photos-row' style={{ display: 'flex', gap: '20px', marginTop: '25px', flexWrap: 'wrap' }}>
+                            
+                            {/* Photo 1 */}
+                            <div style={{ flex: '1 1 300px', maxWidth: '450px' }}>
+                                <img 
+                                    src='./polyucricketteam1.jpg' 
+                                    alt="PolyU Cricket Team" 
+                                    style={{ width: '100%', maxHeight: '300px', objectFit: 'cover', borderRadius: '8px' }} 
+                                />
+                            </div>
+
+                            {/* Photo 2 */}
+                            <div style={{ flex: '1 1 300px', maxWidth: '450px' }}>
+                                <img 
+                                    src='./polyucricketteam2.jpg' 
+                                    alt="Cricket Training" 
+                                    style={{ width: '100%', maxHeight: '300px', objectFit: 'cover', borderRadius: '8px' }} 
+                                />
+                            </div>
+
+                            {/* Photo 3 */}
+                            <div style={{ flex: '1 1 300px', maxWidth: '450px' }}>
+                                <img 
+                                    src='./usrcinaction.jpg' 
+                                    alt="Playing for USRC" 
+                                    style={{ width: '100%', maxHeight: '300px', objectFit: 'cover', borderRadius: '8px' }} 
+                                />
+                            </div>
+
+                            {/* Photo 4 */}
+                            <div style={{ flex: '1 1 300px', maxWidth: '450px' }}>
+                                <img 
+                                    src='./polyuinaction.jpg' 
+                                    alt="Playing for PolyU" 
+                                    style={{ width: '100%', maxHeight: '300px', objectFit: 'cover', borderRadius: '8px' }} 
+                                />
+                            </div>
+
+                        </div>
+
                     </div>
                 </div> 
             </section>
+
 
             {/* 8. TUTORING SUMMARY PREVIEW SECTION */}
             <section id='tutoring' className='services-section_container'>
