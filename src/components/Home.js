@@ -25,7 +25,7 @@ function Home() {
     return (
         <> 
             {/* 1. HERO LANDING ZONE */}
-            <header id='welcome' className='hero-section_container'>
+            <header id='welcome' className='hero-section_container' style={{ paddingTop: '80px' }}>
                 <div className='hero-content_wrapper'>
                     <div className='hero-intro-text'>
                         <span className='hero-subtitle'>📍 Hong Kong | Year 2 @ PolyU</span>
@@ -301,7 +301,7 @@ function Home() {
                             {/* Photo 4 */}
                             <div style={{ flex: '1 1 300px', maxWidth: '450px' }}>
                                 <img 
-                                    src./polyuinaction.jpg' 
+                                    src='./polyuinaction.jpg' 
                                     alt="Playing for PolyU" 
                                     style={{ width: '100%', height: '250px', objectFit: 'cover', borderRadius: '8px' }} 
                                 />
