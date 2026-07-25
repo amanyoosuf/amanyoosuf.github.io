@@ -33,6 +33,16 @@ function Home() {
                         <p className='hero-tagline'>
                             Electrical Engineering student with a secondary major in Artificial Intelligence & Data Analytics (AIDA). Exploring power systems, smart grids, and electronics.
                         </p>
+                        
+                        {/* Live Engineering Status Widget (Goal 1: Live Demo / Interactive Element) */}
+                        <div className="bg-slate-900 border border-slate-800 p-4 rounded-xl font-mono text-sm text-emerald-400 flex items-center gap-3 my-4" style={{ background: 'rgba(15, 23, 42, 0.8)', border: '1px solid rgba(100, 255, 218, 0.2)', padding: '12px 16px', borderRadius: '8px', maxWidth: '600px' }}>
+                            <span className="relative flex h-3 w-3" style={{ position: 'relative', display: 'flex', height: '12px', width: '12px' }}>
+                                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" style={{ position: 'absolute', display: 'inline-flex', height: '100%', width: '100%', borderRadius: '50%', backgroundColor: '#34d399', opacity: 0.75 }}></span>
+                                <span className="relative inline-flex rounded-full h-3 w-3 bg-emerald-500" style={{ position: 'relative', display: 'inline-flex', borderRadius: '50%', height: '12px', width: '12px', backgroundColor: '#10b981' }}></span>
+                            </span>
+                            <span style={{ color: '#64ffda' }}>Status: Systems Nominal | Core Focus: Power Systems, Embedded Controls & High-Performance STEM Education</span>
+                        </div>
+
                         <div className='hero-cta-buttons'>
                             <a href='#aboutme' className='cta-btn primary'>About Me</a>
                             <a href='mailto:amanur.yoosuf@connect.polyu.hk' className='cta-btn secondary'>Let's Connect</a>
@@ -331,24 +341,45 @@ function Home() {
                 </div> 
             </section>
 
-            {/* 8. TUTORING SUMMARY PREVIEW SECTION */}
+            {/* 8. TUTORING SUMMARY PREVIEW SECTION (Goal 3: Dedicated Sub-Page / Module feel) */}
             <section id='tutoring' className='services-section_container'>
                 <div className='content-wrapper'>
-                    <h2 style={sectionHeaderStyle}>06. Tutoring</h2>
-                    <div className='tutoring-pitch-card'>
+                    <h2 style={sectionHeaderStyle}>06. Tutoring Hub</h2>
+                    <div className='tutoring-pitch-card' style={{ background: 'rgba(15, 23, 42, 0.6)', border: '1px solid rgba(100, 255, 218, 0.15)', padding: '30px', borderRadius: '12px' }}>
+                        
+                        {/* Professional Metrics Callout for Tutoring */}
+                        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '20px', marginBottom: '25px' }}>
+                            <div style={{ background: 'rgba(30, 41, 59, 0.7)', padding: '15px 20px', borderRadius: '8px', borderLeft: '3px solid #64ffda' }}>
+                                <span style={{ fontFamily: 'monospace', fontSize: '0.85rem', color: '#94a3b8', textTransform: 'uppercase' }}>Rate / Tier</span>
+                                <p style={{ fontSize: '1.4rem', fontWeight: 'bold', color: '#ffffff', margin: '5px 0 0' }}>400 HKD <span style={{ fontSize: '0.9rem', fontWeight: 'normal', color: '#64ffda' }}>/ hr</span></p>
+                            </div>
+                            <div style={{ background: 'rgba(30, 41, 59, 0.7)', padding: '15px 20px', borderRadius: '8px', borderLeft: '3px solid #64ffda' }}>
+                                <span style={{ fontFamily: 'monospace', fontSize: '0.85rem', color: '#94a3b8', textTransform: 'uppercase' }}>Volume & Impact</span>
+                                <p style={{ fontSize: '1.4rem', fontWeight: 'bold', color: '#ffffff', margin: '5px 0 0' }}>15k HKD <span style={{ fontSize: '0.9rem', fontWeight: 'normal', color: '#64ffda' }}>/ mo</span></p>
+                            </div>
+                            <div style={{ background: 'rgba(30, 41, 59, 0.7)', padding: '15px 20px', borderRadius: '8px', borderLeft: '3px solid #64ffda' }}>
+                                <span style={{ fontFamily: 'monospace', fontSize: '0.85rem', color: '#94a3b8', textTransform: 'uppercase' }}>Track Record</span>
+                                <p style={{ fontSize: '1.4rem', fontWeight: 'bold', color: '#ffffff', margin: '5px 0 0' }}>50+ Students <span style={{ fontSize: '0.9rem', fontWeight: 'normal', color: '#64ffda' }}>Global</span></p>
+                            </div>
+                        </div>
+
                         <p style={{ fontSize: '1.15rem', lineHeight: '1.6', color: '#ffffff' }}>
-                            Alongside my academics, I also tutor high school students regularly. Since 2022, I have had the privilege of guiding more than 50 students across 10+ global territories through various international school curricula to achieve exceptional academic results. Currently, I tailor instruction—both online and in-person—for students attending top international schools in Hong Kong, including HKIS, WIS, SIS, Stamford American, KIS, and The Island School, and more.
+                            Alongside my academics, I maintain a high-impact academic tutoring practice. Since 2022, I have had the privilege of guiding more than 50 students across 10+ global territories through rigorous international school curricula to achieve top-tier results. Currently, I tailor instruction—both online and in-person—for students attending premier international schools in Hong Kong, including HKIS, WIS, SIS, Stamford American, KIS, and The Island School.
                         </p>
-                        <p style={{ fontSize: '1.15rem', lineHeight: '1.6', color: '#ffffff', marginTop: '15px' }}>
-                            Parents and students alike are welcome to find out more <a href="https://wa.me/85297630974" target="_blank" rel="noreferrer" style={{ color: '#64ffda', textDecoration: 'underline', fontWeight: 'bold' }}>here</a>.
-                        </p>
-                        <p style={{ fontSize: '1.15rem', lineHeight: '1.6', color: '#ffffff', marginTop: '15px' }}>
-                            Because demand occasionally scales up, I sometimes review profiles of qualified tutors to support my students (current PolyU students preferred). If interested, please feel free to reach out!
+                        
+                        <div style={{ display: 'flex', gap: '15px', flexWrap: 'wrap', marginTop: '20px' }}>
+                            <a href="https://wa.me/85297630974" target="_blank" rel="noreferrer" className='cta-btn primary' style={{ background: '#64ffda', color: '#0a192f', padding: '10px 20px', borderRadius: '6px', fontWeight: 'bold', textDecoration: 'none' }}>
+                                Book / Inquire via WhatsApp
+                            </a>
+                        </div>
+
+                        <p style={{ fontSize: '1rem', lineHeight: '1.6', color: '#94a3b8', marginTop: '20px' }}>
+                            <em>Because demand scales upward, I selectively review profiles of high-performing PolyU engineering students to support my student base. Qualified candidates are welcome to reach out.</em>
                         </p>
                     </div>
                 </div>
             </section>
-                                        
+                                    
             <Footer />
         </>
     );
