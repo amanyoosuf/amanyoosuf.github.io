@@ -1,17 +1,19 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './components/Home';
+import Layout from './components/Layout';
+import Home from './pages/Home';
+import Projects from './pages/Projects';
+// import Experience from './pages/Experience'; // add as you create them
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        {/* Render Home directly since Home now contains its own clean minimalist sidebar/layout */}
-        <Route path="/" element={<Home />} />
-        
-        {/* Fallback route: Redirects any broken links safely back home */}
-        <Route path="*" element={<Home />} />
+        <Route path="/" element={<Layout><Home /></Layout>} />
+        <Route path="/projects" element={<Layout><Projects /></Layout>} />
+        {/* <Route path="/experience" element={<Layout><Experience /></Layout>} /> */}
+        <Route path="*" element={<Layout><Home /></Layout>} />
       </Routes>
     </BrowserRouter>
   );
