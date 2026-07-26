@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
-import Home from './pages/Home';
-import Projects from './pages/Projects';
+import Home from './components/Home';
+import Projects from './components/Projects';
 // import Experience from './pages/Experience'; // add as you create them
 
 function App() {
