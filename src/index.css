@@ -2,14 +2,14 @@
 
 /* Dark blue-green is the default. Light mode overrides below. */
 :root {
-  --bg: #061a1f;
-  --surface: #0b2b30;
-  --ink: #e1f4ee;
-  --muted: #8fb2ae;
-  --line: #17434a;
-  --a1: #3ee0c1;
-  --a2: #4aa8ff;
-  --a3: #8be28a;
+  --bg: #0a1628;
+  --surface: #102039;
+  --ink: #e8eef8;
+  --muted: #8fa3c0;
+  --line: #1f3558;
+  --a1: #4f9cf9;
+  --a2: #7fb8ff;
+  --a3: #4f9cf9;
   --display: "Bricolage Grotesque", system-ui, sans-serif;
   --body: "IBM Plex Sans", system-ui, sans-serif;
 }
@@ -19,8 +19,8 @@
   --ink: #0a2a2e;
   --muted: #4d6f6c;
   --line: #cfe2df;
-  --a1: #0a8f7b;
-  --a2: #1565c0;
+  --a1: #1d4ed8;
+  --a2: #2563eb;
   --a3: #3a8f3a;
 }
 
