@@ -3,14 +3,14 @@
 // Leave an image as "" to show a placeholder box.
  
 export const profile = {
-  name: "Your Name",
-  headline: "Electrical engineering and AI, aimed at smarter power grids.",
+  name: "Amanur Yoosuf",
+  headline: "Electrical Engineering + AIDA",
   summary:
-    "EE undergraduate at PolyU with a second major in AI and Data Analytics. I build data-driven tools for power systems, from state estimation to forecasting. [Replace with 2-3 sentences about you.]",
+    "2nd Year undergrad at The Hong Kong Polytechnic University, currently studying EE and AIDA. I am also a URIS student, studying how _____.",
   photo: "", // /images/profile.jpg
-  email: "you@connect.polyu.hk",
+  email: "amanur.yoosuf@connect.polyu.hk",
   links: [
-    { label: "GitHub", href: "https://github.com/your-username" },
+    { label: "GitHub", href: "https://github.com/amanyoosufT" },
     { label: "LinkedIn", href: "https://linkedin.com/in/your-handle" },
     { label: "CV (PDF)", href: "/cv.pdf" },
   ],
