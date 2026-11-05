@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import useScrollSpy from "./useScrollSpy";
 import Navbar from "./components/Navbar";
-import Waveform from "./components/Waveform";
 import { Section, Card, ImgSlot, Tags } from "./components/Bits";
 import { profile, education, experience, projects, tutoring, other } from "./data";
 
@@ -34,7 +33,6 @@ export default function App() {
 
       <main>
         <section id="summary" className="hero">
-          <Waveform />
           <div className="hero-inner">
             <ImgSlot src={profile.photo} alt={profile.name} hint="Add profile photo: public/images/profile.jpg" className="avatar" />
             <div>
