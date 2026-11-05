@@ -2,11 +2,11 @@
 
 /* Dark blue-green is the default. Light mode overrides below. */
 :root {
-  --bg: #0a1628;
-  --surface: #102039;
-  --ink: #e8eef8;
-  --muted: #8fa3c0;
-  --line: #1f3558;
+  --bg: #000000;
+  --surface: #0a0a0a;
+  --ink: #f2f2f2;
+  --muted: #9a9a9a;
+  --line: #222222;
   --a1: #4f9cf9;
   --a2: #7fb8ff;
   --a3: #4f9cf9;
@@ -19,8 +19,8 @@
   --ink: #0a2a2e;
   --muted: #4d6f6c;
   --line: #cfe2df;
-  --a1: #1d4ed8;
-  --a2: #2563eb;
+  --a1: #ffffff;
+  --a2: #cfcfcf;
   --a3: #3a8f3a;
 }
 
