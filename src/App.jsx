@@ -21,7 +21,7 @@ import { tintOf } from "./tints.js";
 */
 
 const SECTIONS = [
-  { id: "who", label: "Who Am I?" }, { id: "education", label: "Education" }, { id: "experience", label: "Experience" },
+  { id: "who", label: "Summary" }, { id: "education", label: "Education" }, { id: "experience", label: "Experience" },
   { id: "projects", label: "Projects" }, { id: "skills", label: "Skills" }, { id: "tutoring", label: "Tutoring" },
   { id: "awards", label: "Awards" }, { id: "more", label: "More" },
 ];
@@ -45,7 +45,7 @@ export default function App() {
       <SpaceBackground tint={tintOf(active)} />
       <Navbar sections={SECTIONS} active={active} theme={theme} tint={tintOf(active)} onToggle={() => setTheme(theme === "dark" ? "light" : "dark")} />
       <main>
-        <Section id="who" title="Who is Aman?">
+        <Section id="who" title="Summary">
           <Story side="left" photos={[
             { id: "w1", file: "who-1.jpg", r: -4 }, { id: "w2", file: "who-2.jpg", r: 3 }, { id: "w3", file: "who-3.jpg", r: -2 },
           ]}>
