@@ -1,0 +1,15 @@
+/* The box has no border or background, so the logos look like they float freely. */
+.skills-box { position: relative; height: 30rem; --s: 84px; }
+.skill { position: absolute; left: 0; top: 0; width: var(--s); text-align: center; will-change: transform; }
+.skill .chip {
+  width: calc(var(--s) - 22px); height: calc(var(--s) - 22px); margin: 0 auto;
+  background: #fff; display: grid; place-items: center;
+  font: 700 .8rem var(--display); color: #06101f;
+  box-shadow: 0 0 14px rgba(106, 168, 255, .18);
+  transition: transform .2s, box-shadow .2s;
+}
+.skill .chip img { width: 68%; height: 68%; object-fit: contain; }
+.skill:hover .chip { transform: scale(1.15); box-shadow: 0 0 20px rgba(106, 168, 255, .55); }
+.skill small { display: block; margin-top: .25rem; font-size: .68rem; line-height: 1.2; color: var(--muted); white-space: nowrap; }
+
+@media (max-width: 760px) { .skills-box { --s: 64px; height: 42rem; } }
