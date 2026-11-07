@@ -13,11 +13,12 @@ import Logo from "./components/Logo.jsx";
  - A highlighted word is <Hl id="x">word</Hl>. Its photo is the entry with id "x" in that Story's photos array.
    To remove one, delete the <Hl> (keep the plain text) and delete its entry from photos.
  - Photos: save a file with the exact name shown on the placeholder in public/images/. No code change needed.
+ - Logos: save a file with the name used in <Logo file="..."> in public/images/.
  - side="left" or "right" is where the card moves to when opened.
 */
 
 const SECTIONS = [
-  { id: "who", label: "Who Am I?" }, { id: "experience", label: "Experience" },
+  { id: "who", label: "Who Am I?" }, { id: "education", label: "Education" }, { id: "experience", label: "Experience" },
   { id: "projects", label: "Projects" }, { id: "tutoring", label: "Tutoring" },
   { id: "awards", label: "Awards" }, { id: "more", label: "More" },
 ];
@@ -51,17 +52,45 @@ export default function App() {
           </Story>
         </Section>
 
+        <Section id="education" title="Education">
+          <Story side="right" photos={[{ id: "ed1", file: "education-1.jpg", r: 3 }]}>
+            <div className="head">
+              <Logo file="logo-polyu.png" alt="PolyU" />
+              <h3>The Hong Kong Polytechnic University</h3>
+            </div>
+            <p>BEng Electrical Engineering, second major in AI and Data Analytics. <small>[Years]</small></p>
+            <p>Lorem ipsum dolor sit amet, <Hl id="ed1">relevant coursework and results</Hl> consectetur adipiscing elit.</p>
+          </Story>
+          <Story side="left" photos={[{ id: "ed2", file: "education-2.jpg", r: -3 }]}>
+            <div className="head">
+              <Logo file="logo-school.png" alt="Secondary school" />
+              <h3>School name</h3>
+            </div>
+            <p>Lorem ipsum dolor sit amet, <Hl id="ed2">consectetur adipiscing</Hl> elit.</p>
+          </Story>
+        </Section>
+
         <Section id="experience" title="Experience">
           <Story side="right" photos={[{ id: "e1", file: "exp-1.jpg", r: 3 }]}>
-            <h3>Undergraduate Research & Innovation Scheme, PolyU Graduate School<small>2026 to present</small></h3>
-            <p>Lorem ipsum dolor sit amet, <Hl id="e1">data-driven state estimation</Hl> consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            <div className="head">
+              <Logo file="logo-polyu.png" alt="PolyU" />
+              <h3>URIS Research Project, PolyU <small>Sep 2026 to present</small></h3>
+            </div>
+            <p>Dept. of Electrical and Electronic Engineering, supervised by Prof. Siqi Bu.</p>
+            <p>Project: <Hl id="e1">Data-Driven Dynamic State Estimation for Situational Awareness of Modern Power Grids</Hl>.</p>
           </Story>
           <Story side="left" photos={[{ id: "e2", file: "exp-2.jpg", r: -3 }]}>
-            <h3>Role, Company <small>Dates</small></h3>
+            <div className="head">
+              <Logo file="logo-company-1.png" alt="Company" />
+              <h3>Role, Company <small>Dates</small></h3>
+            </div>
             <p>Lorem ipsum dolor sit amet, consectetur <Hl id="e2">adipiscing elit</Hl> sed do eiusmod tempor incididunt ut labore et dolore.</p>
           </Story>
           <Story side="right" photos={[{ id: "e3", file: "exp-3.jpg", r: 2 }]}>
-            <h3>Role, Company <small>Dates</small></h3>
+            <div className="head">
+              <Logo file="logo-company-2.png" alt="Company" />
+              <h3>Role, Company <small>Dates</small></h3>
+            </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <Hl id="e3">sed do eiusmod</Hl> tempor incididunt ut labore et dolore magna.</p>
           </Story>
         </Section>
@@ -106,3 +135,4 @@ export default function App() {
     </>
   );
 }
+
