@@ -106,7 +106,7 @@ export default function App() {
           </Story>
           <Story side="right" photos={[{ id: "e3", file: "exp-3.jpg", r: 2 }]}>
             <div className="head">
-              <Logo file="eformula.png" alt="PolyU E-Formula" />
+              <Logo file="polyueformula.jpg" alt="PolyU E-Formula" />
               <h3>Electrical Sub-Team Member, PolyU E-Formula <small>Oct 2025 to Jun 2026</small></h3>
             </div>
             <p>I supported the design, testing and optimisation of the car's electrical systems, including wiring, sensors and motor control.</p>
