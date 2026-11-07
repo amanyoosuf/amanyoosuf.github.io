@@ -5,6 +5,7 @@ import SpaceBackground from "./components/SpaceBackground.jsx";
 import Section from "./components/Section.jsx";
 import Story, { Hl } from "./components/Story.jsx";
 import Photo from "./components/Photo.jsx";
+import Logo from "./components/Logo.jsx";
 
 /*
  HOW TO EDIT
