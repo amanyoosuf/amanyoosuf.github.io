@@ -44,15 +44,15 @@ export default function App() {
           <Story side="left" photos={[
             { id: "w1", file: "who-1.jpg", r: -4 }, { id: "w2", file: "who-2.jpg", r: 3 }, { id: "w3", file: "who-3.jpg", r: -2 },
           ]}>
-            <p>I am an electrical engineering undergraduate at PolyU with a second major in AI and Data Analytics. Lorem ipsum dolor sit amet, consectetur adipiscing elit, <Hl id="w1">sed do eiusmod tempor</Hl> incididunt ut labore et dolore magna aliqua.</p>
-            <p>Ut enim ad minim veniam, quis nostrud <Hl id="w2">exercitation ullamco</Hl> laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in <Hl id="w3">reprehenderit in voluptate</Hl> velit esse.</p>
+            <p>I'm an electrical engineering undergraduate at PolyU with a second major in AI and Data Analytics. As a 2026/27 URIS researcher, I build <Hl id="w1">LSTM models that forecast voltage problems in EV- and solar-heavy power grids</Hl> and turn them into colour-coded operator alerts.</p>
+            <p>I learn by building: <Hl id="w2">three Industrial Centre courses (MATLAB, SolidWorks, Shapr3D) and a year on PolyU's E-Formula EEE subteam</Hl>, plus projects like this site. Off the clock, I teach 50+ students and <Hl id="w3">play cricket for PolyU, University Cricket League champions 2025/26</Hl>.</p>
             <p className="hint">Click the highlighted words.</p>
           </Story>
         </Section>
 
         <Section id="experience" title="Experience">
           <Story side="right" photos={[{ id: "e1", file: "exp-1.jpg", r: 3 }]}>
-            <h3>URIS Research, PolyU <small>2026 to present</small></h3>
+            <h3>Undergraduate Research & Innovation Scheme, PolyU Graduate School<small>2026 to present</small></h3>
             <p>Lorem ipsum dolor sit amet, <Hl id="e1">data-driven state estimation</Hl> consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
           </Story>
           <Story side="left" photos={[{ id: "e2", file: "exp-2.jpg", r: -3 }]}>
