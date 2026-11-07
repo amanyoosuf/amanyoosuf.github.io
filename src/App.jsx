@@ -104,7 +104,7 @@ export default function App() {
             <p>I teach Minecraft Education, Scratch, MIT App Inventor and other STEM activities to learners aged 6 to 13, adapting lessons to different ages and learning paces.</p>
             <p>I also prototype <Hl id="e2">interactive digital learning tools</Hl> using AI tools and automation workflows, and analyse usage data to improve them.</p>
           </Story>
-          <Story side="right" photos={[{ id: "e3", file: "exp-3.jpg", r: 2 }]}>
+          <Story side="right" photos={[{ id: "e3", file: "polyueformulacar.jpg", r: 2 }]}>
             <div className="head">
               <Logo file="polyueformula.jpg" alt="PolyU E-Formula" />
               <h3>Electrical Sub-Team Member, PolyU E-Formula <small>Oct 2025 to Jun 2026</small></h3>
