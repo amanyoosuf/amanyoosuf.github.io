@@ -6,20 +6,22 @@ import Section from "./components/Section.jsx";
 import Story, { Hl } from "./components/Story.jsx";
 import Photo from "./components/Photo.jsx";
 import Logo from "./components/Logo.jsx";
+import Skills from "./components/Skills.jsx";
 
 /*
  HOW TO EDIT
  - Each <Story> is one card. Delete the whole <Story> to remove it.
  - A highlighted word is <Hl id="x">word</Hl>. Its photo is the entry with id "x" in that Story's photos array.
    To remove one, delete the <Hl> (keep the plain text) and delete its entry from photos.
- - Photos: save a file with the exact name shown on the placeholder in public/images/. No code change needed.
- - Logos: save a file with the name used in <Logo file="..."> in public/images/.
+ - Photos: save a file with the exact name shown on the placeholder.
+ - Logos: save a file with the name used in <Logo file="..."> (no spaces in file names).
+ - Skills: edit the SKILLS list at the top of components/Skills.jsx.
  - side="left" or "right" is where the card moves to when opened.
 */
 
 const SECTIONS = [
   { id: "who", label: "Who Am I?" }, { id: "education", label: "Education" }, { id: "experience", label: "Experience" },
-  { id: "projects", label: "Projects" }, { id: "tutoring", label: "Tutoring" },
+  { id: "projects", label: "Projects" }, { id: "skills", label: "Skills" }, { id: "tutoring", label: "Tutoring" },
   { id: "awards", label: "Awards" }, { id: "more", label: "More" },
 ];
 const IDS = SECTIONS.map((s) => s.id);
@@ -58,62 +60,89 @@ export default function App() {
               <Logo file="polyu.png" alt="PolyU" />
               <h3>The Hong Kong Polytechnic University</h3>
             </div>
-            <p>B.Eng (Hons) Scheme in Electrical Engineering with a Secondary Major in AI and Data Analytics. <small>[Years]</small></p>
-            <p>Lorem ipsum dolor sit amet, <Hl id="ed1">relevant coursework and results</Hl> consectetur adipiscing elit.</p>
+            <p>B.Eng (Hons) Scheme in Electrical Engineering with a Secondary Major in AI and Data Analytics. <small>Expected June 2029, CGPA 3.53/4.30</small></p>
+            <p>Scholarships: <Hl id="ed1">URIS Scholarship (2026/27), Full Entry Scholarship and Talent Development Scholarship (2025/26)</Hl>.</p>
           </Story>
           <Story side="left" photos={[{ id: "ed2", file: "education-2.jpg", r: -3 }]}>
             <div className="head">
-              <Logo file="lyceum.jpg" alt="High School" />
-              <h3>Lyceum International School, Nugegoda</h3>
+              <Logo file="lyceum.jpg" alt="Lyceum International School" />
+              <h3>Lyceum International School, Nugegoda <small>Completed June 2024</small></h3>
             </div>
-            <p>Completed the Edexcel International Advanced Level, Subjects: Mathematics, Chemistry, Biology, Physics.</p>
-            <p>Completed the Cambridge GCE Ordinary Level, Subjects: Mathematics, Chemistry, Biology, Physics, Computer Science, English Language, Literature in English.</p>
-            <p>Awards: Cambridge Outstanding Learner Award, Edexcel High Achiever Award.</p>
-            <p>Lorem ipsum dolor sit amet, <Hl id="ed2">consectetur adipiscing</Hl> elit.</p>
+            <p>Edexcel International Advanced Level: Mathematics, Chemistry, Biology, Physics.</p>
+            <p>Cambridge GCE Ordinary Level: Mathematics, Chemistry, Biology, Physics, Computer Science, English Language, Literature in English.</p>
+            <p>Awards: <Hl id="ed2">Cambridge Outstanding Learner Award and Edexcel High Achiever Award</Hl>.</p>
           </Story>
         </Section>
 
         <Section id="experience" title="Experience">
           <Story side="right" photos={[{ id: "e1", file: "exp-1.jpg", r: 3 }]}>
             <div className="head">
-              <Logo file="polyugs.jpg" alt="PolyU GS" />
+              <Logo file="polyugs.jpg" alt="PolyU Graduate School" />
               <h3>URIS Research Project, PolyU <small>Sep 2026 to present</small></h3>
             </div>
             <p>Dept. of Electrical and Electronic Engineering, supervised by Prof. Siqi Bu.</p>
-            <p>Project: <Hl id="e1">Data-Driven Dynamic State Estimation for Situational Awareness of Modern Power Grids</Hl>.</p>
+            <p>Project: <Hl id="e1">Data-Driven Dynamic State Estimation for Situational Awareness of Modern Power Grids</Hl></p>
+            <ul>
+              <li>Training an LSTM (PyTorch/TensorFlow) to forecast bus voltages from sparse measurements in grids with high EV and solar penetration.</li>
+              <li>Building a Pandapower simulation of the IEEE 33-bus feeder, benchmarked against persistence, static DNN and WLS baselines.</li>
+              <li>Testing robustness to measurement loss and bad data, and designing colour-coded early warnings for grid operators.</li>
+            </ul>
           </Story>
           <Story side="left" photos={[{ id: "e2", file: "exp-2.jpg", r: -3 }]}>
             <div className="head">
-              <Logo file="scholastic.jpg" alt="Scholastic Chess" />
-              <h3>Role, Company <small>Dates</small></h3>
+              <Logo file="scholastic.jpg" alt="Scholastic Academy" />
+              <h3>STEM Tutor and Project Developer, Scholastic Academy <small>Sep 2025 to present</small></h3>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur <Hl id="e2">adipiscing elit</Hl> sed do eiusmod tempor incididunt ut labore et dolore.</p>
+            <p>I teach Minecraft Education, Scratch, MIT App Inventor and other STEM activities to learners aged 6 to 13, adapting lessons to different ages and learning paces.</p>
+            <p>I also prototype <Hl id="e2">interactive digital learning tools</Hl> using AI tools and automation workflows, and analyse usage data to improve them.</p>
           </Story>
           <Story side="right" photos={[{ id: "e3", file: "exp-3.jpg", r: 2 }]}>
             <div className="head">
-              <Logo file="for you.jpg" alt="For You Education" />
-              <h3>Role, Company <small>Dates</small></h3>
+              <Logo file="eformula.png" alt="PolyU E-Formula" />
+              <h3>Electrical Sub-Team Member, PolyU E-Formula <small>Oct 2025 to Jun 2026</small></h3>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <Hl id="e3">sed do eiusmod</Hl> tempor incididunt ut labore et dolore magna.</p>
+            <p>I supported the design, testing and optimisation of the car's electrical systems, including wiring, sensors and motor control.</p>
+            <p>I ran <Hl id="e3">functional testing and debugging of embedded electronics</Hl>, documented the results and wrote progress reports.</p>
+          </Story>
+          <Story side="left" photos={[{ id: "e4", file: "exp-4.jpg", r: -2 }]}>
+            <div className="head">
+              <Logo file="for-you.jpg" alt="For You Education" />
+              <h3>[Role], For You Education <small>[Dates]</small></h3>
+            </div>
+            <p>[Tell me your role here and I'll write it.] <Hl id="e4">Highlighted detail</Hl></p>
           </Story>
         </Section>
 
         <Section id="projects" title="Projects">
-          <Story side="left" photos={[{ id: "p1", file: "project-1.jpg", r: -3 }, { id: "p2", file: "project-2.jpg", r: 4 }]}>
-            <h3>Project One</h3>
-            <p>Lorem ipsum dolor sit amet, <Hl id="p1">consectetur adipiscing</Hl> elit, sed do eiusmod tempor, ut <Hl id="p2">labore et dolore</Hl> magna aliqua.</p>
+          <Story side="left" photos={[{ id: "p1", file: "project-1.jpg", r: -3 }]}>
+            <h3>Circuit Calculator <small>Dec 2025</small></h3>
+            <p>A Python tool that automates circuit calculations and plots the results, built with <Hl id="p1">NumPy and Matplotlib</Hl>. I checked it against 10+ circuit types through systematic debugging and testing.</p>
           </Story>
-          <Story side="right" photos={[{ id: "p3", file: "project-3.jpg", r: -2 }]}>
-            <h3>Project Two</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <Hl id="p3">sed do eiusmod</Hl> tempor incididunt ut labore.</p>
+          <Story side="right" photos={[{ id: "p2", file: "project-2.jpg", r: 3 }]}>
+            <h3>Google Maps API Data Pipeline <small>Jan to Mar 2026</small></h3>
+            <p>As a research assistant in PolyU's Civil and Environmental Engineering department, I ran <Hl id="p2">1,000+ API queries</Hl> with error-free retrieval and validation, and documented every processing step and quality check.</p>
           </Story>
+          <Story side="left" photos={[{ id: "p3", file: "project-3.jpg", r: -2 }]}>
+            <h3>This Portfolio Website <small>2026 to present</small></h3>
+            <p>A responsive site built in <Hl id="p3">React, JavaScript, HTML and CSS</Hl> with reusable components, scroll animations and dark/light mode, version-controlled with Git and hosted on GitHub.</p>
+          </Story>
+          <Story side="right" photos={[{ id: "p4", file: "project-4.jpg", r: 2 }]}>
+            <h3>CS50P, Harvard <small>In progress</small></h3>
+            <p>Harvard's Introduction to Programming with Python. I'm working through the <Hl id="p4">problem sets and projects</Hl>, with all code committed on GitHub.</p>
+          </Story>
+        </Section>
+
+        <Section id="skills" title="Skills">
+          <Skills />
         </Section>
 
         <Section id="tutoring" title="Tutoring">
           <Story side="left" photos={[
             { id: "t1", file: "tutoring-1.jpg", r: 3 }, { id: "t2", file: "tutoring-2.jpg", r: -4 }, { id: "t3", file: "tutoring-3.jpg", r: 2 },
           ]}>
-            <p>Lorem ipsum dolor sit amet, <Hl id="t1">consectetur adipiscing</Hl> elit. Sed do eiusmod tempor <Hl id="t2">incididunt ut labore</Hl> et dolore magna aliqua, quis <Hl id="t3">nostrud exercitation</Hl> ullamco.</p>
+            <p>I've taught <Hl id="t1">50+ students over four years</Hl> across the IAL, IGCSE, IB MYP, IB and AP curricula.</p>
+            <p>I've also led <Hl id="t2">technical workshops and projects that bring STEM and AI into school subjects</Hl>.</p>
+            <p>Next, I'm working towards <Hl id="t3">starting my own education centre</Hl>.</p>
           </Story>
         </Section>
 
@@ -129,7 +158,7 @@ export default function App() {
             <a href="https://instagram.com/amanyoosuf" target="_blank" rel="noopener">Instagram</a>
             <a href="https://linkedin.com/in/your-handle" target="_blank" rel="noopener">LinkedIn</a>
             <a href="https://github.com/your-username" target="_blank" rel="noopener">GitHub</a>
-            <a href="mailto:you@example.com">Email</a>
+            <a href="mailto:amanur.yoosuf@connect.polyu.hk">Email</a>
             <a href="cv.pdf" target="_blank" rel="noopener">CV (PDF)</a>
           </div>
         </Section>
@@ -138,4 +167,3 @@ export default function App() {
     </>
   );
 }
-
