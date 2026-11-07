@@ -55,7 +55,7 @@ export default function App() {
         <Section id="education" title="Education">
           <Story side="right" photos={[{ id: "ed1", file: "education-1.jpg", r: 3 }]}>
             <div className="head">
-              <Logo file="logo-polyu.png" alt="PolyU" />
+              <Logo file="polyu.png" alt="PolyU" />
               <h3>The Hong Kong Polytechnic University</h3>
             </div>
             <p>BEng Electrical Engineering, second major in AI and Data Analytics. <small>[Years]</small></p>
@@ -63,7 +63,7 @@ export default function App() {
           </Story>
           <Story side="left" photos={[{ id: "ed2", file: "education-2.jpg", r: -3 }]}>
             <div className="head">
-              <Logo file="logo-school.png" alt="Secondary school" />
+              <Logo file="lyceum.jpg" alt="High School" />
               <h3>School name</h3>
             </div>
             <p>Lorem ipsum dolor sit amet, <Hl id="ed2">consectetur adipiscing</Hl> elit.</p>
@@ -73,7 +73,7 @@ export default function App() {
         <Section id="experience" title="Experience">
           <Story side="right" photos={[{ id: "e1", file: "exp-1.jpg", r: 3 }]}>
             <div className="head">
-              <Logo file="logo-polyu.png" alt="PolyU" />
+              <Logo file="polyugs.jpg" alt="PolyU GS" />
               <h3>URIS Research Project, PolyU <small>Sep 2026 to present</small></h3>
             </div>
             <p>Dept. of Electrical and Electronic Engineering, supervised by Prof. Siqi Bu.</p>
@@ -81,14 +81,14 @@ export default function App() {
           </Story>
           <Story side="left" photos={[{ id: "e2", file: "exp-2.jpg", r: -3 }]}>
             <div className="head">
-              <Logo file="logo-company-1.png" alt="Company" />
+              <Logo file="scholastic.jpg" alt="Scholastic Chess" />
               <h3>Role, Company <small>Dates</small></h3>
             </div>
             <p>Lorem ipsum dolor sit amet, consectetur <Hl id="e2">adipiscing elit</Hl> sed do eiusmod tempor incididunt ut labore et dolore.</p>
           </Story>
           <Story side="right" photos={[{ id: "e3", file: "exp-3.jpg", r: 2 }]}>
             <div className="head">
-              <Logo file="logo-company-2.png" alt="Company" />
+              <Logo file="foryou.jpg" alt="For You Education" />
               <h3>Role, Company <small>Dates</small></h3>
             </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <Hl id="e3">sed do eiusmod</Hl> tempor incididunt ut labore et dolore magna.</p>
