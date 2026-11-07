@@ -88,7 +88,7 @@ export default function App() {
           </Story>
           <Story side="right" photos={[{ id: "e3", file: "exp-3.jpg", r: 2 }]}>
             <div className="head">
-              <Logo file="foryou.jpg" alt="For You Education" />
+              <Logo file="for you.jpg" alt="For You Education" />
               <h3>Role, Company <small>Dates</small></h3>
             </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <Hl id="e3">sed do eiusmod</Hl> tempor incididunt ut labore et dolore magna.</p>
