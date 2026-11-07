@@ -5,13 +5,14 @@ import "./Skills.css";
 const dev = (n) => `https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/${n}/${n}-original.svg`;
 
 // To remove a skill, delete its line. To add one, copy a line.
+// fix: "invert" turns a black logo white; fix: "glow" adds a soft outline to a dark logo.
 const SKILLS = [
   { name: "Python", src: dev("python") }, { name: "NumPy", src: dev("numpy") },
-  { name: "Pandas", src: dev("pandas") }, { name: "SciPy", src: dev("scipy") },
+  { name: "Pandas", src: dev("pandas"), fix: "glow" }, { name: "SciPy", src: dev("scipy") },
   { name: "Matplotlib", src: dev("matplotlib") }, { name: "JavaScript", src: dev("javascript") },
   { name: "React", src: dev("react") }, { name: "HTML", src: dev("html5") },
   { name: "CSS", src: dev("css3") }, { name: "Git", src: dev("git") },
-  { name: "GitHub", src: dev("github") }, { name: "VS Code", src: dev("vscode") },
+  { name: "GitHub", src: dev("github"), fix: "invert" }, { name: "VS Code", src: dev("vscode") },
   { name: "PyTorch", src: dev("pytorch") }, { name: "TensorFlow", src: dev("tensorflow") },
   { name: "Jupyter", src: dev("jupyter") }, { name: "MATLAB", src: dev("matlab") },
   { name: "Simulink", file: "simulink.png" }, { name: "Pandapower", file: "pandapower.png" },
@@ -24,8 +25,8 @@ function Chip({ s }) {
   const [ok, setOk] = useState(true);
   const src = s.src || `${import.meta.env.BASE_URL}skills/${s.file}`;
   return (
-    <div className="chip">
-      {ok ? <img src={src} alt={s.name} onError={() => setOk(false)} /> : <span>{s.name.slice(0, 3)}</span>}
+    <div className={`chip ${s.fix || ""}`}>
+      {ok ? <img src={src} alt={s.name} title={s.name} onError={() => setOk(false)} /> : <span>{s.name.slice(0, 3)}</span>}
     </div>
   );
 }
@@ -60,7 +61,7 @@ export default function Skills() {
       for (let i = 0; i < st.length; i++) {
         for (let j = i + 1; j < st.length; j++) {
           const a = st[i], b = st[j];
-          const dx = b.x - a.x, dy = b.y - a.y, d = Math.hypot(dx, dy), min = S * 0.92;
+          const dx = b.x - a.x, dy = b.y - a.y, d = Math.hypot(dx, dy), min = S * 0.98;
           if (d > 0 && d < min) {
             const push = (min - d) / 2, nx = dx / d, ny = dy / d;
             a.x -= nx * push; a.y -= ny * push; b.x += nx * push; b.y += ny * push;
@@ -80,7 +81,6 @@ export default function Skills() {
       {SKILLS.map((s, i) => (
         <div key={s.name} className="skill" ref={(e) => (els.current[i] = e)}>
           <Chip s={s} />
-          <small>{s.name}</small>
         </div>
       ))}
     </div>
