@@ -58,14 +58,17 @@ export default function App() {
               <Logo file="polyu.png" alt="PolyU" />
               <h3>The Hong Kong Polytechnic University</h3>
             </div>
-            <p>BEng Electrical Engineering, second major in AI and Data Analytics. <small>[Years]</small></p>
+            <p>B.Eng (Hons) Scheme in Electrical Engineering with a Secondary Major in AI and Data Analytics. <small>[Years]</small></p>
             <p>Lorem ipsum dolor sit amet, <Hl id="ed1">relevant coursework and results</Hl> consectetur adipiscing elit.</p>
           </Story>
           <Story side="left" photos={[{ id: "ed2", file: "education-2.jpg", r: -3 }]}>
             <div className="head">
               <Logo file="lyceum.jpg" alt="High School" />
-              <h3>School name</h3>
+              <h3>Lyceum International School, Nugegoda</h3>
             </div>
+            <p>Completed the Edexcel International Advanced Level, Subjects: Mathematics, Chemistry, Biology, Physics.</p>
+            <p>Completed the Cambridge GCE Ordinary Level, Subjects: Mathematics, Chemistry, Biology, Physics, Computer Science, English Language, Literature in English.</p>
+            <p>Awards: Cambridge Outstanding Learner Award, Edexcel High Achiever Award.</p>
             <p>Lorem ipsum dolor sit amet, <Hl id="ed2">consectetur adipiscing</Hl> elit.</p>
           </Story>
         </Section>
