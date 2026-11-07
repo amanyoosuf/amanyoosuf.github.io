@@ -8,7 +8,7 @@ const dev = (n) => `https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/$
 // fix: "invert" turns a black logo white; fix: "glow" adds a soft outline to a dark logo.
 const SKILLS = [
   { name: "Python", src: dev("python") }, { name: "NumPy", src: dev("numpy") },
-  { name: "Pandas", src: dev("pandas"), fix: "glow" }, { name: "SciPy", src: dev("scipy") },
+  { name: "Pandas", src: dev("pandas"), fix: "glow" },
   { name: "Matplotlib", src: dev("matplotlib") }, { name: "JavaScript", src: dev("javascript") },
   { name: "React", src: dev("react") }, { name: "HTML", src: dev("html5") },
   { name: "CSS", src: dev("css3") }, { name: "Git", src: dev("git") },
