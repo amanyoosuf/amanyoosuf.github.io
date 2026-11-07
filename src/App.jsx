@@ -30,10 +30,10 @@ const IDS = SECTIONS.map((s) => s.id);
 
 // Your awards, in the order they scroll. shape: "tall", "wide" or "" (square). Delete a line to remove one.
 const AWARDS = [
-  { file: "award-1.jpg", shape: "tall" },
-  { file: "award-2.jpg", shape: "wide" },
-  { file: "award-3.jpg", shape: "" },
-  { file: "award-4.jpg", shape: "wide" },
+  { file: "uris.jpg", shape: "tall" },
+  { file: "tds.jpg", shape: "wide" },
+  { file: "edexcel.jpg", shape: "tall" },
+  { file: "cambridge.jpg", shape: "tall" },
 ];
 
 export default function App() {
