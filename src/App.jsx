@@ -22,7 +22,7 @@ import { tintOf } from "./tints.js";
 */
 
 const SECTIONS = [
-  { id: "who", label: "Who Am I?" }, { id: "education", label: "Education" }, { id: "experience", label: "Experience" },
+  { id: "summary", label: "Summary"" }, { id: "education", label: "Education" }, { id: "experience", label: "Experience" },
   { id: "projects", label: "Projects" }, { id: "skills", label: "Skills" }, { id: "tutoring", label: "Tutoring" },
   { id: "awards", label: "Awards" }, { id: "more", label: "More" },
 ];
@@ -51,7 +51,8 @@ export default function App() {
           <Story side="left" photos={[
             { id: "w1", file: "who-1.jpg", r: -4 }, { id: "w2", file: "who-2.jpg", r: 3 }, { id: "w3", file: "who-3.jpg", r: -2 },
           ]}>
-            <p>I'm an electrical engineering undergraduate at PolyU with a second major in AI and Data Analytics. As a 2026/27 URIS researcher, I build <Hl id="w1">LSTM models that forecast voltage problems in EV- and solar-heavy power grids</Hl> and turn them into colour-coded operator alerts.</p>
+            <p>Hi, there! My name is Aman and I'm an electrical engineering undergraduate at PolyU with a second major in AI and Data Analytics. I'm an international student from Colombo, Sri Lanka and currently residing in Hong Kong.</p>
+            <p>Currently, as part of my 2026/27 URIS project, I build <Hl id="w1">LSTM/DNN models that forecast voltage problems in EV- and solar-heavy power grids</Hl> and turn them into colour-coded operator alerts.</p>
             <p>I learn by building: <Hl id="w2">three Industrial Centre courses (MATLAB, SolidWorks, Shapr3D) and a year on PolyU's E-Formula EEE subteam</Hl>, plus projects like this site. Off the clock, I teach 50+ students and <Hl id="w3">play cricket for PolyU, University Cricket League champions 2025/26</Hl>.</p>
             <p className="hint">Hover over or tap the text to spotlight its photo.</p>
           </Story>
