@@ -18,7 +18,7 @@ const SKILLS = [
   { name: "Simulink", file: "simulink.png" }, { name: "Pandapower", file: "pandapower.png" },
   { name: "SolidWorks", file: "solidworks.png" }, { name: "Shapr3D", file: "shapr3d.png" },
   { name: "Claude", file: "claude.png" }, { name: "Copilot", file: "copilot.png" },
-  { name: "Gemini", file: "gemini.png" },
+  { name: "Gemini", file: "gemini.png" }, { name: "SciPy", file: "scipy.png" }
 ];
 
 function Chip({ s }) {
