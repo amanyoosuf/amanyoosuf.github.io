@@ -84,7 +84,7 @@ export default function App() {
         </Section>
 
         <Section id="experience" title="Experience">
-          <Story side="right" photos={[{ id: "e1", file: "proposal_frontpage.jpg", r: 3, size: 1.35, href: "uris-proposal.pdf", name: "Amanur_Yoosuf_URIS_Proposal.pdf" }]}>
+          <Story side="right" photos={[{ id: "e1", file: "proposal_frontpage.png", r: 3, size: 1.35, href: "uris_proposal.pdf", name: "Amanur_Yoosuf_URIS_Proposal.pdf" }]}>
             <div className="head">
               <Logo file="polyugs.jpg" alt="PolyU Graduate School" />
               <h3>URIS Research Project, PolyU <small>Sep 2026 to present</small></h3>
