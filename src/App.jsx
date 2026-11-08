@@ -137,7 +137,7 @@ export default function App() {
               <h3>This Portfolio Website <small>2026 to present</small></h3>
               <p>A responsive site built in <Hl id="p3">React, JavaScript, HTML and CSS</Hl> with reusable components, scroll animations and dark/light mode, version-controlled with Git and hosted on GitHub.</p>
             </Story>
-            <Story stack photos={[{ id: "p4", file: "project-4.jpg" }]}>
+            <Story stack photos={[{ id: "p4", file: "cs50_example.jpg" }]}>
               <h3>CS50P, Harvard <small>In progress</small></h3>
               <p>Harvard's Introduction to Programming with Python. I'm working through the <Hl id="p4">problem sets and projects</Hl>, with all code committed on GitHub.</p>
             </Story>
