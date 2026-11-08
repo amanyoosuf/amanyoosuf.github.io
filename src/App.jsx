@@ -125,7 +125,7 @@ export default function App() {
 
         <Section id="projects" title="Projects">
           <div className="cards-2">
-            <Story stack photos={[{ id: "p1", file: "circuit-calculator.jpg" }, { id: "p1b", file: "circuit-schematic.jpg" }]}>
+            <Story stack photos={[{ id: "p1", file: "circuit-calculator.jpg" }]}>
               <h3>Circuit Calculator <small>Dec 2025</small></h3>
               <p>A Python tool that automates circuit calculations and plots the results, built with <Hl id="p1">NumPy and Matplotlib</Hl>. I checked it against 10+ circuit types through systematic debugging and testing.</p>
             </Story>
