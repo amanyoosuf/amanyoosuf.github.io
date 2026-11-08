@@ -66,7 +66,7 @@ export default function App() {
         <Section id="education" title="Education">
           <Story side="right" photos={[{ id: "ed1", file: "education-1.jpg", r: 3 }]}>
             <div className="head">
-              <Logo file="polyu.png" alt="PolyU" />
+              <Logo file="polyu_main.png" alt="PolyU" />
               <h3>The Hong Kong Polytechnic University</h3>
             </div>
             <p>B.Eng (Hons) Scheme in Electrical Engineering with a Secondary Major in AI and Data Analytics. <small>Expected June 2029, CGPA 3.53/4.30</small></p>
