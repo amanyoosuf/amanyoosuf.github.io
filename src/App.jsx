@@ -172,8 +172,8 @@ export default function App() {
           <p className="lead">Currently looking for an electrical engineering or AI internship. Get in touch.</p>
           <div className="socials">
             <a className="social" href="https://instagram.com/amanyoosuf" target="_blank" rel="noopener" aria-label="Instagram"><Instagram /><span>Instagram</span></a>
-            <a className="social" href="https://github.com/your-username" target="_blank" rel="noopener" aria-label="GitHub"><GitHub /><span>GitHub</span></a>
-            <a className="social" href="https://linkedin.com/in/your-handle" target="_blank" rel="noopener" aria-label="LinkedIn"><LinkedIn /><span>LinkedIn</span></a>
+            <a className="social" href="https://github.com/amanyoosuf" target="_blank" rel="noopener" aria-label="GitHub"><GitHub /><span>GitHub</span></a>
+            <a className="social" href="https://linkedin.com/in/amanuryoosuf12" target="_blank" rel="noopener" aria-label="LinkedIn"><LinkedIn /><span>LinkedIn</span></a>
             <a className="social" href="mailto:amanur.yoosuf@connect.polyu.hk" aria-label="Email"><Mail /><span>Email</span></a>
             <a className="social" href="cv.pdf" target="_blank" rel="noopener" aria-label="CV"><Document /><span>CV</span></a>
           </div>
