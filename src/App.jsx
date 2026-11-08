@@ -74,7 +74,7 @@ export default function App() {
           </Story>
           <Story side="left" photos={[{ id: "ed2", file: "education-2.jpg", r: -3 }]}>
             <div className="head">
-              <Logo file="lyceum.jpg" alt="Lyceum International School" />
+              <Logo file="lyceum_cricket.jpg" alt="Lyceum International School" />
               <h3>Lyceum International School, Nugegoda <small>Completed June 2024</small></h3>
             </div>
             <p>Edexcel International Advanced Level: Mathematics, Chemistry, Biology, Physics.</p>
