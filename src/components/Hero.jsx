@@ -9,7 +9,7 @@ export default function Hero() {
       <p className="hero-kicker">2nd Year @ The Hong Kong Polytechnic University</p>
       <h1>Amanur Yoosuf</h1>
       <p className="hero-line">Electrical Engineering, w/ a Secondary Major in AI & Data Analytics</p>
-      p className="hero-sub">Deep learning for smarter power grids. URIS researcher.</p>
+      <p className="hero-sub">Deep learning for smarter power grids. URIS researcher.</p>
       <div className="hero-icons">
         <a href="https://github.com/amanyoosuf" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub"><GitHub /></a>
         <a href="https://linkedin.com/in/amanuryoosuf12" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn"><LinkedIn /></a>
