@@ -64,17 +64,17 @@ export default function App() {
         </Section>
 
         <Section id="education" title="Education">
-          <Story side="right" photos={[{ id: "ed1", file: "education-1.jpg", r: 3 }]}>
+          <Story side="right" photos={[{ id: "ed1", file: "polyu_main.jpg", r: 3 }]}>
             <div className="head">
-              <Logo file="polyu_main.png" alt="PolyU" />
+              <Logo file="polyu.png" alt="PolyU" />
               <h3>The Hong Kong Polytechnic University</h3>
             </div>
             <p>B.Eng (Hons) Scheme in Electrical Engineering with a Secondary Major in AI and Data Analytics. <small>Expected June 2029, CGPA 3.53/4.30</small></p>
             <p>Scholarships: <Hl id="ed1">URIS Scholarship (2026/27), Full Entry Scholarship and Talent Development Scholarship (2025/26)</Hl>.</p>
           </Story>
-          <Story side="left" photos={[{ id: "ed2", file: "education-2.jpg", r: -3 }]}>
+          <Story side="left" photos={[{ id: "ed2", file: "lyceum_cricket.jpg", r: -3 }]}>
             <div className="head">
-              <Logo file="lyceum_cricket.jpg" alt="Lyceum International School" />
+              <Logo file="lyceum.jpg" alt="Lyceum International School" />
               <h3>Lyceum International School, Nugegoda <small>Completed June 2024</small></h3>
             </div>
             <p>Edexcel International Advanced Level: Mathematics, Chemistry, Biology, Physics.</p>
@@ -84,7 +84,7 @@ export default function App() {
         </Section>
 
         <Section id="experience" title="Experience">
-          <Story side="right" photos={[{ id: "e1", file: "uris-proposal.jpg", r: 3, size: 1.35, href: "uris-proposal.pdf", name: "Amanur_Yoosuf_URIS_Proposal.pdf" }]}>
+          <Story side="right" photos={[{ id: "e1", file: "proposal_frontpage.jpg", r: 3, size: 1.35, href: "uris-proposal.pdf", name: "Amanur_Yoosuf_URIS_Proposal.pdf" }]}>
             <div className="head">
               <Logo file="polyugs.jpg" alt="PolyU Graduate School" />
               <h3>URIS Research Project, PolyU <small>Sep 2026 to present</small></h3>
