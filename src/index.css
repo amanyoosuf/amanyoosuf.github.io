@@ -136,3 +136,33 @@ footer { text-align: center; color: var(--muted); padding: 4rem 1rem 3rem; font-
   .frame { width: 11rem; height: 11rem; } .frame.tall { width: 9rem; } .frame.wide { width: 16rem; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } html { scroll-behavior: auto; } }
+
+/* Paste at the very bottom of src/index.css.
+   If you pasted the earlier photo-additions.css, delete it first and use this one instead. */
+
+/* Frames fit each photo's own shape: no cropping and no empty space */
+.photos { --pw: 10rem; }
+.story:has(.photo:only-child) .photos { --pw: 14rem; }
+.photo.fit { width: calc(var(--pw) * var(--k) * var(--s, 1)) !important; max-width: 100%; aspect-ratio: auto !important; }
+.photo.fit img { position: static; display: block; width: 100%; height: auto; }
+.photo.fit span { display: none; }
+/* Placeholder shape while a photo is missing */
+.photo.wide { width: 18rem; aspect-ratio: 4 / 3; max-width: 100%; }
+
+/* Gold award frames: fixed height, width follows the photo */
+.frame { --fh: 15rem; }
+.frame.fit { height: var(--fh); width: calc((var(--fh) - 12px) * var(--ratio) + 12px); }
+
+/* A photo that downloads a file when clicked */
+.photo .dl { position: absolute; inset: 0; z-index: 1; }
+.photo .dl em { position: absolute; left: 0; right: 0; bottom: 0; padding: .5rem; text-align: center; font: 500 .8rem var(--body);
+  font-style: normal; background: rgba(0, 0, 0, .75); color: #fff; opacity: 0; transform: translateY(100%); transition: opacity .3s, transform .3s; }
+.photo.linked:hover .dl em, .photo .dl:focus-visible em { opacity: 1; transform: none; }
+.photo.linked { cursor: pointer; }
+@media (hover: none) { .photo .dl em { opacity: 1; transform: none; } }
+
+@media (max-width: 760px) {
+  .photos { --pw: 8.5rem; }
+  .story:has(.photo:only-child) .photos { --pw: 12rem; }
+  .frame { --fh: 11rem; }
+}
