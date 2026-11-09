@@ -126,7 +126,7 @@ export default function App() {
               <h3>Google Maps API Data Pipeline <small>Jan to Mar 2026</small></h3>
               <p>As a research assistant in PolyU's Civil and Environmental Engineering department, I ran 1,000+ API queries with error-free retrieval and validation, and documented every processing step and quality check.</p>
             </Story>
-            <Story stack photos={[{ id: "p3", file: "project-3.jpg" }]}>
+            <Story stack photos={[{ id: "p3", file: "website_image.jpg" }]}>
               <h3>This Portfolio Website <small>2026 to present</small></h3>
               <p>A responsive site built in React, JavaScript, HTML and CSS with reusable components, scroll animations and dark/light mode, version-controlled with Git and hosted on GitHub.</p>
             </Story>
