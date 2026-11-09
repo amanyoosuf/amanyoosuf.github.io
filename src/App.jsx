@@ -54,12 +54,12 @@ export default function App() {
       <Navbar sections={SECTIONS} active={active} theme={theme} tint={tintOf(active)} onToggle={() => setTheme(theme === "dark" ? "light" : "dark")} />
       <main>
         <Hero />
-        <Section id="summary" title="Who is Aman?">
+        <Section id="summary" title="Summary">
           <Story side="left" photos={[
             { id: "w1", file: "main_photo.jpg", r: -4 },
           ]}>
-            <p>I'm an electrical engineering undergraduate at PolyU with a second major in AI and Data Analytics. As a 2026/27 URIS researcher, I build LSTM models that forecast voltage problems in EV and solar-heavy power grids and turn them into colour-coded operator alerts.</p>
-            <p>I learn by building: three Industrial Centre courses (MATLAB, SolidWorks, Shapr3D) and a year on PolyU's E-Formula EEE subteam, plus projects like this site. Off the clock, I teach 50+ students and play cricket for PolyU, University Cricket League champions 2025/26.</p>
+            <p>Hi there! I’m an electrical engineering undergraduate at PolyU with a second major in AI and Data Analytics. As a 2026/27 URIS researcher, I’m building LSTM models that forecast voltage problems in EV- and solar-heavy power grids and turn them into colour-coded alerts for grid operators.</p>
+            <p>I’m passionate about learning by building: three Industrial Centre courses (MATLAB, SolidWorks, Shapr3D), a year on PolyU’s E-Formula electrical team, and projects like this site. I’m just as passionate about teaching, with 50+ students so far. Away from the screen, I enjoy the gym, and, being Sri Lankan, I wouldn’t be complete without cricket: I play for PolyU, the 2025/26 University Cricket League champions.</p>
           </Story>
         </Section>
 
@@ -69,7 +69,8 @@ export default function App() {
               <Logo file="polyu.png" alt="PolyU" />
               <h3>The Hong Kong Polytechnic University</h3>
             </div>
-            <p><strong className="key">B.Eng (Hons) Scheme in Electrical Engineering with a Secondary Major in AI and Data Analytics</strong> <small>Expected June 2029, CGPA 3.53/4.30</small></p>
+            <p><strong className="key">B.Eng (Hons) Scheme in Electrical Engineering with a Secondary Major in AI and Data Analytics</strong> <small>Expected June 2029</small></p>
+            <p><strong className="key">CGPA: 3.53/4.30</strong></p>
             <p>Scholarships: <strong className="key">URIS Scholarship (2026/27), Full Entry Scholarship and Talent Development Scholarship (2025/26)</strong>.</p>
           </Story>
           <Story side="left" photos={[{ id: "ed2", file: "lyceum_cricket.jpg", r: -3 }]}>
