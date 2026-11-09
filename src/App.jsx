@@ -143,9 +143,10 @@ export default function App() {
 
         <Section id="tutoring" title="Tutoring">
           <Story side="left" photos={[]} center>
-            <p>I've taught 50+ students over four years across the IAL, IGCSE, IB MYP, IB and AP curricula.</p>
-            <p>I've also led technical workshops and projects that bring STEM and AI into school subjects.</p>
-            <p>Next, I'm working towards starting my own education centre.</p>
+           <p>Finally, I'm very passionate about teaching. Over four years I've taught <strong className="key">50+ students</strong> across the IAL, IGCSE, IB MYP, IB and AP curricula, and I run my own tutoring business.</p>
+           <p>I've also led STEM and chess workshops in international and local schools across Hong Kong. My aspirations also include teaching & mentoring for a living.</p>
+           <p>Looking for a tutor, or a teacher for your school or centre? I'd love to hear from you.</p>
+           <p><a className="btn primary" href="mailto:amanur.yoosuf@connect.polyu.hk?subject=Tutoring%20or%20teaching%20enquiry">Get in touch!</a></p>
           </Story>
         </Section>
 
