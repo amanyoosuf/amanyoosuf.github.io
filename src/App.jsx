@@ -78,8 +78,8 @@ export default function App() {
               <Logo file="lyceum.jpg" alt="Lyceum International School" />
               <h3>Lyceum International School, Nugegoda <small>Completed June 2024</small></h3>
             </div>
-            <p>Edexcel International Advanced Level: <strong className="key">Mathematics, Chemistry, Biology, Physics</strong>.</p>
-            <p>Cambridge GCE Ordinary Level: <strong className="key">Mathematics, Chemistry, Biology, Physics, Computer Science, English Language, Literature in English</strong>.</p>
+            <p>Edexcel International Advanced Level: Mathematics, Chemistry, Biology, Physics.</p>
+            <p>Cambridge GCE Ordinary Level: Mathematics, Chemistry, Biology, Physics, Computer Science, English Language, Literature in English.</p>
             <p>Awards: <strong className="key">Cambridge Outstanding Learner Award and Edexcel High Achiever Award</strong>.</p>
           </Story>
         </Section>
