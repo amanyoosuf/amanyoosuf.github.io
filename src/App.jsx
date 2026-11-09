@@ -142,7 +142,7 @@ export default function App() {
         </Section>
 
         <Section id="tutoring" title="Tutoring">
-          <Story side="left" photos={[]}>
+          <Story side="left" photos={[]} center>
             <p>I've taught 50+ students over four years across the IAL, IGCSE, IB MYP, IB and AP curricula.</p>
             <p>I've also led technical workshops and projects that bring STEM and AI into school subjects.</p>
             <p>Next, I'm working towards starting my own education centre.</p>
