@@ -98,7 +98,7 @@ export default function App() {
               <li>Testing robustness to measurement loss and bad data, and designing colour-coded early warnings for grid operators.</li>
             </ul>
           </Story>
-          <Story side="left" photos={[{ id: "e2", file: "stem_group.jpg", r: -3, size: 1.3 }]}>
+          <Story side="left" photos={[{ id: "e2", file: "minecraft_education.jpg", r: -3, size: 1.3 }]}>
             <div className="head">
               <Logo file="scholastic.jpg" alt="Scholastic Chess" />
               <h3>STEM Tutor and Project Developer, Scholastic Chess <small>Sep 2025 to present</small></h3>
